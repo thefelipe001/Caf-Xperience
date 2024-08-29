@@ -3,51 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.sqlserver\\unitofworksqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.sqlserver\\unitofworksqlserveradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserveradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\unitofwork.sqlserver\\unitofworksqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\unitofwork.sqlserver\\unitofworksqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\unitofwork.sqlserver\\unitofworksqlserveradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserveradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1078FF4-E688-4EB9-A0F1-4A16030DB9B1}|Common\\Common.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\common\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1078FF4-E688-4EB9-A0F1-4A16030DB9B1}|Common\\Common.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\common\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1078FF4-E688-4EB9-A0F1-4A16030DB9B1}|Common\\Common.csproj|solutionrelative:common\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\unitofwork.interfaces\\iunitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.interfaces\\iunitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|solutionrelative:unitofwork.interfaces\\iunitofworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\unitofwork.interfaces\\iunitofworkadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.interfaces\\iunitofworkadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|solutionrelative:unitofwork.interfaces\\iunitofworkadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\unitofwork.interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9816AF9-149D-4558-85B7-CACD186F5094}|UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj|solutionrelative:unitofwork.interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\repository.sqlserver\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\repository.sqlserver\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|solutionrelative:repository.sqlserver\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\repository.interfaces\\actions\\iupdaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\repository.interfaces\\actions\\iupdaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|solutionrelative:repository.interfaces\\actions\\iupdaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\repository.interfaces\\actions\\iremoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\repository.interfaces\\actions\\iremoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|solutionrelative:repository.interfaces\\actions\\iremoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\repository.interfaces\\actions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\repository.interfaces\\actions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|solutionrelative:repository.interfaces\\actions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\repository.interfaces\\actions\\icreaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\repository.interfaces\\actions\\icreaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E9788BF-A7C7-48D7-B53C-1764CAA356DE}|Repository.Interfaces\\Repository.Interfaces.csproj|solutionrelative:repository.interfaces\\actions\\icreaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,33 +70,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitOfWorkSqlServerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerRepository.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerRepository.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerRepository.cs",
               "RelativeToolTip": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:05:04.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UnitOfWorkSqlServerAdapter.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
               "RelativeToolTip": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:03:57.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UnitOfWorkSqlServer.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
@@ -117,8 +117,7 @@
               "RelativeToolTip": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:57:57.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:57:57.125Z"
             },
             {
               "$type": "Document",
@@ -130,8 +129,7 @@
               "RelativeToolTip": "UnitOfWork.Interfaces\\IUnitOfWorkAdapter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:56:57.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:56:57.216Z"
             },
             {
               "$type": "Document",
@@ -143,8 +141,7 @@
               "RelativeToolTip": "UnitOfWork.Interfaces\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:56:05.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:56:05.123Z"
             },
             {
               "$type": "Document",
@@ -156,8 +153,7 @@
               "RelativeToolTip": "Repository.SqlServer\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:53:28.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:53:28.448Z"
             },
             {
               "$type": "Document",
@@ -169,8 +165,7 @@
               "RelativeToolTip": "Common\\Parameters.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:39:48.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:39:48.301Z"
             },
             {
               "$type": "Document",
@@ -182,8 +177,7 @@
               "RelativeToolTip": "Repository.Interfaces\\Actions\\IUpdateRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:51:06.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:51:06.019Z"
             },
             {
               "$type": "Document",
@@ -195,8 +189,7 @@
               "RelativeToolTip": "Repository.Interfaces\\Actions\\IRemoveRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:50:23.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:50:23.527Z"
             },
             {
               "$type": "Document",
@@ -208,8 +201,7 @@
               "RelativeToolTip": "Repository.Interfaces\\Actions\\IReadRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:49:47.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:49:47.635Z"
             },
             {
               "$type": "Document",
@@ -221,8 +213,7 @@
               "RelativeToolTip": "Repository.Interfaces\\Actions\\ICreateRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:49:02.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T21:49:02.349Z"
             },
             {
               "$type": "Document",
