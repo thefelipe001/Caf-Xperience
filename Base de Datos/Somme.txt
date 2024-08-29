@@ -1,0 +1,10 @@
+SQL Server version:	MS SQL 2022 Express
+SQL Server address:	CafeXperienceDB.mssql.somee.com
+Login name:	CafeUnapec_SQLLogin_1
+Login password:	iicrm8eafc
+Connection string:"workstation id=CafeXperienceDB.mssql.somee.com;packet size=4096;user id=CafeUnapec_SQLLogin_1;pwd=iicrm8eafc;data source=CafeXperienceDB.mssql.somee.com;persist security info=False;initial catalog=CafeXperienceDB;TrustServerCertificate=True"
+
+
+Usuario de somme:CafeUnapec
+Clave de Some:CafeUnapec@1
+link:https://somee.com/DOKA/Identity/Account/Login?ReturnUrl=%2FDOKA%2FDOU%2FMSSQL%2FMsSqlDatabaseList
