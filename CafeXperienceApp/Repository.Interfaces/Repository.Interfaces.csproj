@@ -43,7 +43,10 @@
     <Reference Include="Microsoft.Analytics.Types" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Actions\ICreateRepository.cs" />
+    <Compile Include="Actions\IReadRepository.cs" />
+    <Compile Include="Actions\IRemoveRepository.cs" />
+    <Compile Include="Actions\IUpdateRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
