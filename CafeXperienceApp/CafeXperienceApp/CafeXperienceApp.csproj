@@ -171,6 +171,8 @@
     <Content Include="Design\images\arrow-110x14.png" />
     <Content Include="Design\images\banner-top-2050x60.jpg" />
     <Content Include="Design\images\bg-pattern-boxed.png" />
+    <Content Include="Design\images\BreakFast.png" />
+    <Content Include="Design\images\Cocinero.png" />
     <Content Include="Design\images\favicon.ico" />
     <Content Include="Design\images\gmap_marker.png" />
     <Content Include="Design\images\gmap_marker_active.png" />
@@ -182,6 +184,7 @@
     <Content Include="Design\images\loading.gif" />
     <Content Include="Design\images\logo-default-363x100.png" />
     <Content Include="Design\images\logo-inverse-363x100.png" />
+    <Content Include="Design\images\Luch.png" />
     <Content Include="Design\images\preloader.gif" />
     <Content Include="Design\images\preloader.png" />
     <Content Include="Design\images\product-01-176x176.png" />
