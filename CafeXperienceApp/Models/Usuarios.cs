@@ -19,6 +19,8 @@ namespace Models
         public string Correo { get; set; }
         public string Contraseña { get; set; }
         public virtual Cafeteria Cafeteria { get; set; }
+        public IEnumerable<TiposUsuarios> TiposUsuarios { get; set; }
+
 
     }
 }

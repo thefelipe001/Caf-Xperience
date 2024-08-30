@@ -13,5 +13,7 @@ namespace Models
         public int Id { get; set; }
         public string Descripción { get; set; }
         public string Estado { get; set; }
+        public virtual Usuarios Usuarios { get; set; }
+
     }
 }
