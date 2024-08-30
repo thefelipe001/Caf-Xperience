@@ -62,6 +62,7 @@ C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\S
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.WebPages.dll
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.WebPages.Razor.dll
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\WebGrease.dll
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\Newtonsoft.Json.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.Helpers.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.Mvc.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.Optimization.xml
@@ -69,7 +70,6 @@ C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\S
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.WebPages.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\System.Web.WebPages.Razor.xml
-C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\Newtonsoft.Json.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\Antlr3.Runtime.pdb
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp\obj\Debug\CafeXperienceApp.csproj.AssemblyReference.cache

@@ -3,11 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\design\\images\\shutter-home-01-455x685.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\images\\shutter-home-01-455x685.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\cafexperienceapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\design\\images\\product-02-176x176.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\images\\product-02-176x176.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\design\\images\\product-03-176x176.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\images\\product-03-176x176.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\design\\images\\slider-04-671x671.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\images\\slider-04-671x671.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\cafexperienceapp\\design\\images\\_blank.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\images\\_blank.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\cafexperienceapp\\design\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\cafexperienceapp\\design\\images\\logo-default-363x100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\design\\images\\logo-default-363x100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49803C0E-CBC9-431E-9646-7F41378648AE}|Models\\Models.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\models\\tiposusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49803C0E-CBC9-431E-9646-7F41378648AE}|Models\\Models.csproj|solutionrelative:models\\tiposusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49803C0E-CBC9-431E-9646-7F41378648AE}|Models\\Models.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49803C0E-CBC9-431E-9646-7F41378648AE}|Models\\Models.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49803C0E-CBC9-431E-9646-7F41378648AE}|Models\\Models.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -41,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D1078FF4-E688-4EB9-A0F1-4A16030DB9B1}|Common\\Common.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\common\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1078FF4-E688-4EB9-A0F1-4A16030DB9B1}|Common\\Common.csproj|solutionrelative:common\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\cafexperienceapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52947B7F-3465-4571-BBDC-61D1F504375E}|CafeXperienceApp\\CafeXperienceApp.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\cafexperienceapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,46 +118,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Usuarios.cs",
-              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Usuarios.cs",
-              "RelativeToolTip": "Models\\Usuarios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T16:28:47.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TiposUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\TiposUsuarios.cs",
-              "RelativeDocumentMoniker": "Models\\TiposUsuarios.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\TiposUsuarios.cs",
-              "RelativeToolTip": "Models\\TiposUsuarios.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T16:16:24.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Campus.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Campus.cs",
-              "RelativeDocumentMoniker": "Models\\Campus.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Campus.cs",
-              "RelativeToolTip": "Models\\Campus.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T16:05:57.192Z",
+              "Title": "shutter-home-01-455x685.png",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\shutter-home-01-455x685.png",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\images\\shutter-home-01-455x685.png",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\shutter-home-01-455x685.png",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\images\\shutter-home-01-455x685.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-30T20:28:18.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "product-03-176x176.png",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\product-03-176x176.png",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\images\\product-03-176x176.png",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\product-03-176x176.png",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\images\\product-03-176x176.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-30T20:04:03.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Campus.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Campus.cs",
+              "RelativeDocumentMoniker": "Models\\Campus.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Campus.cs",
+              "RelativeToolTip": "Models\\Campus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:05:57.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Cafeteria.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Cafeteria.cs",
               "RelativeDocumentMoniker": "Models\\Cafeteria.cs",
@@ -137,12 +162,11 @@
               "RelativeToolTip": "Models\\Cafeteria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T15:57:39.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T15:57:39.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Parameters.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Common\\Parameters.cs",
               "RelativeDocumentMoniker": "Common\\Parameters.cs",
@@ -154,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "ICreateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.Interfaces\\Actions\\ICreateRepository.cs",
               "RelativeDocumentMoniker": "Repository.Interfaces\\Actions\\ICreateRepository.cs",
@@ -166,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "IReadRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.Interfaces\\Actions\\IReadRepository.cs",
               "RelativeDocumentMoniker": "Repository.Interfaces\\Actions\\IReadRepository.cs",
@@ -178,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "IRemoveRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.Interfaces\\Actions\\IRemoveRepository.cs",
               "RelativeDocumentMoniker": "Repository.Interfaces\\Actions\\IRemoveRepository.cs",
@@ -190,7 +214,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAAALYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T03:44:04.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product-02-176x176.png",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\product-02-176x176.png",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\images\\product-02-176x176.png",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\product-02-176x176.png",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\images\\product-02-176x176.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-30T20:05:11.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "slider-04-671x671.png",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\slider-04-671x671.png",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\images\\slider-04-671x671.png",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\slider-04-671x671.png",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\images\\slider-04-671x671.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-30T19:45:20.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TiposUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\TiposUsuarios.cs",
+              "RelativeDocumentMoniker": "Models\\TiposUsuarios.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\TiposUsuarios.cs",
+              "RelativeToolTip": "Models\\TiposUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:16:24.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\css\\style.css",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\css\\style.css",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\css\\style.css",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\css\\style.css",
+              "ViewState": "AQIAAIIOAAAAAAAAAAAjwJsOAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-30T18:46:46.916Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "_blank.png",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\_blank.png",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\images\\_blank.png",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\_blank.png",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\images\\_blank.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-30T19:38:06.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "logo-default-363x100.png",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\logo-default-363x100.png",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Design\\images\\logo-default-363x100.png",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Design\\images\\logo-default-363x100.png",
+              "RelativeToolTip": "CafeXperienceApp\\Design\\images\\logo-default-363x100.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-30T19:26:13.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Usuarios.cs",
+              "RelativeToolTip": "Models\\Usuarios.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAEBVwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:28:47.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IUpdateRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.Interfaces\\Actions\\IUpdateRepository.cs",
               "RelativeDocumentMoniker": "Repository.Interfaces\\Actions\\IUpdateRepository.cs",
@@ -202,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.SqlServer\\Repository.cs",
               "RelativeDocumentMoniker": "Repository.SqlServer\\Repository.cs",
@@ -214,31 +333,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "UnitOfWorkSqlServer.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "RelativeToolTip": "UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:00:05.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "UnitOfWorkSqlServerAdapter.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
               "RelativeToolTip": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerAdapter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:03:57.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "UnitOfWorkSqlServerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServerRepository.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServerRepository.cs",
@@ -250,19 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAFwBAAAAAAAAAAAAAJ4BAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T03:44:04.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Home\\Index.cshtml",
@@ -274,19 +381,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "IUnitOfWorkRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
               "RelativeDocumentMoniker": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
               "RelativeToolTip": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T21:57:57.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "IUnitOfWorkAdapter.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkAdapter.cs",
               "RelativeDocumentMoniker": "UnitOfWork.Interfaces\\IUnitOfWorkAdapter.cs",
@@ -298,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "UnitOfWork.Interfaces\\IUnitOfWork.cs",

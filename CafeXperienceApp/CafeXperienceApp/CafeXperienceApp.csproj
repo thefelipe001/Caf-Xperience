@@ -169,7 +169,6 @@
     <Content Include="Design\fonts\materialdesignicons-webfont.svg" />
     <Content Include="Design\images\ajax-loader.gif" />
     <Content Include="Design\images\arrow-110x14.png" />
-    <Content Include="Design\images\banner-bottom-2050x310.jpg" />
     <Content Include="Design\images\banner-top-2050x60.jpg" />
     <Content Include="Design\images\bg-pattern-boxed.png" />
     <Content Include="Design\images\favicon.ico" />
@@ -192,9 +191,6 @@
     <Content Include="Design\images\shutter-home-01-455x685.png" />
     <Content Include="Design\images\shutter-testimonials-01-179x179.png" />
     <Content Include="Design\images\shutter-testimonials-02-306x306.png" />
-    <Content Include="Design\images\slider-01-671x671.png" />
-    <Content Include="Design\images\slider-02-671x671.png" />
-    <Content Include="Design\images\slider-03-671x671.png" />
     <Content Include="Design\images\slider-04-671x671.png" />
     <Content Include="Design\images\testimonials-03-179x179.png" />
     <Content Include="Design\images\video-play.png" />
