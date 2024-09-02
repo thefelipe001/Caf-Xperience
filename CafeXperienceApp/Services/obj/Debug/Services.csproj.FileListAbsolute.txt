@@ -1,0 +1,2 @@
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache

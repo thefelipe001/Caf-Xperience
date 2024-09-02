@@ -47,7 +47,14 @@
     <Compile Include="Actions\IReadRepository.cs" />
     <Compile Include="Actions\IRemoveRepository.cs" />
     <Compile Include="Actions\IUpdateRepository.cs" />
+    <Compile Include="IUsuariosRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{49803c0e-cbc9-431e-9646-7f41378648ae}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

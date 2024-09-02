@@ -1,0 +1,2 @@
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.SqlServer\obj\Debug\UnitOfWork.SqlServer.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.SqlServer\obj\Debug\UnitOfWork.SqlServer.csproj.CoreCompileInputs.cache

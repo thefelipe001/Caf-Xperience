@@ -78,6 +78,14 @@
       <Project>{D1078FF4-E688-4EB9-A0F1-4A16030DB9B1}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Repository.Interfaces\Repository.Interfaces.csproj">
+      <Project>{1e9788bf-a7c7-48d7-b53c-1764caa356de}</Project>
+      <Name>Repository.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository.SqlServer\Repository.SqlServer.csproj">
+      <Project>{722f9eed-b4de-415d-b644-626bbee2b68d}</Project>
+      <Name>Repository.SqlServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UnitOfWork.Interfaces\UnitOfWork.Interfaces.csproj">
       <Project>{e9816af9-149d-4558-85b7-cacd186f5094}</Project>
       <Name>UnitOfWork.Interfaces</Name>
