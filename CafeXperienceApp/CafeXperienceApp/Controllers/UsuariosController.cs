@@ -1,16 +1,27 @@
-﻿using System;
+﻿using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using UnitOfWork.SqlServer;
 
 namespace CafeXperienceApp.Controllers
 {
     public class UsuariosController : Controller
     {
-        // GET: Usuarios
-        public ActionResult Index()
+        private readonly IUsuariosService _usuarioService;
+
+        public UsuariosController(IUsuariosService usuarioService)
         {
+            _usuarioService = usuarioService;
+        }
+
+        public async Task<ActionResult> Index()
+        {
+        // var _usuario= await _usuarioService.GetUsuariosAsync("felipe","1213");
+           
             return View();
         }
 

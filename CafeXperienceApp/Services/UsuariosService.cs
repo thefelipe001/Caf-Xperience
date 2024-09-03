@@ -8,14 +8,18 @@ using UnitOfWork.Interfaces;
 
 namespace Services
 {
+  
     public interface IUsuariosService
     {
-        IEnumerable<Usuarios> GetAll();
-        Usuarios Get(int id);
-        void Create(Usuarios model);
-        void Update(Usuarios model);
-        void Delete(int id);
+        Task<IEnumerable<Usuarios>> GetAllAsync(); 
+        Task<Usuarios> GetAsync(int id); 
+        Task CreateAsync(Usuarios model);
+        Task UpdateAsync(Usuarios model);
+        Task DeleteAsync(int id); 
+        Task<Usuarios> GetUsuariosAsync(string _user, string _password); 
+
     }
+
     public class UsuariosService: IUsuariosService
     {
         private IUnitOfWork _unitOfWork;
@@ -25,29 +29,41 @@ namespace Services
             _unitOfWork = unitOfWork;
         }
 
-        public void Create(Usuarios model)
+        public Task CreateAsync(Usuarios model)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(int id)
+        public Task DeleteAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Usuarios Get(int id)
+        public Task<IEnumerable<Usuarios>> GetAllAsync()
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Usuarios> GetAll()
+        public Task<Usuarios> GetAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Usuarios model)
+        public async Task<Usuarios> GetUsuariosAsync(string _user, string _password)
+        {
+            using (var context = _unitOfWork.Create())
+            {
+                var usuarios = await context.Repositories.UsuariosRepository.GetUsuariosAsync(_user, _password);
+
+                return usuarios;
+            }
+        }
+
+
+        public Task UpdateAsync(Usuarios model)
         {
             throw new NotImplementedException();
         }
     }
 }
+ 

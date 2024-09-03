@@ -8,3 +8,7 @@ C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\obj\Debug\UnitOfWo.556950BB.Up2Date
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\obj\Debug\UnitOfWork.Interfaces.dll
 C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\obj\Debug\UnitOfWork.Interfaces.pdb
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\bin\Debug\Repository.Interfaces.dll
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\bin\Debug\Models.dll
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\bin\Debug\Repository.Interfaces.pdb
+C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\UnitOfWork.Interfaces\bin\Debug\Models.pdb
