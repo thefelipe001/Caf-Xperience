@@ -9,5 +9,7 @@ namespace Repository.Interfaces.Actions
 {
     public interface IUsuariosRepository: IReadRepository<Usuarios, int>, ICreateRepository<Usuarios>, IUpdateRepository<Usuarios>, IRemoveRepository<int>
     {
+        Usuarios GetUsuarios(string _user, string _password);
+
     }
 }

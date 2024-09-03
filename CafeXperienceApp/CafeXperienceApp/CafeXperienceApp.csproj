@@ -203,6 +203,7 @@
     <Content Include="Design\images\_blank.png" />
     <Content Include="Design\js\core.min.js" />
     <Content Include="Design\js\script.js" />
+    <Content Include="Design\Usuarios\css\all.min.css" />
     <Content Include="Design\Usuarios\css\main.css" />
     <Content Include="Design\Usuarios\css\util.css" />
     <Content Include="Design\Usuarios\fonts\font-awesome-4.7.0\css\font-awesome.css" />

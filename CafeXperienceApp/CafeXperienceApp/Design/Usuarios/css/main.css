@@ -82,6 +82,48 @@ ul, li {
 
 
 /*---------------------------------------------*/
+
+
+.icono-casa {
+	position: absolute; /* Posición absoluta para colocar en el contenedor */
+	top: 20px; /* Ajusta la distancia desde la parte superior */
+	left: 20px; /* Ajusta la distancia desde la parte izquierda */
+	font-size: 24px; /* Tamaño del icono */
+	color: #47aa7d; /* Color del icono */
+	background-color: white; /* Fondo blanco detrás del icono */
+	padding: 10px; /* Espacio alrededor del icono */
+	border-radius: 50%; /* Forma circular */
+	text-decoration: none; /* Sin subrayado */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra del icono */
+}
+
+	.icono-casa i {
+		transition: transform 0.2s; /* Transición para animación */
+	}
+
+	.icono-casa:hover i {
+		transform: scale(1.2); /* Aumenta el tamaño del icono al pasar el ratón */
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
 	outline: none;
 	border: none;
