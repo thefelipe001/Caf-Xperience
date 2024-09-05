@@ -83,7 +83,6 @@ namespace Repository.SqlServer
                                 Id = Convert.ToInt32(reader["Id"]),
                                 Nombre = reader["Nombre"].ToString(),
                                 Correo = reader["Correo"].ToString(),
-                                Contraseña = reader["Contraseña"].ToString()
                             };
                         }
                     }
