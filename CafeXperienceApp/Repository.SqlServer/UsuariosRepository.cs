@@ -52,35 +52,25 @@ namespace Repository.SqlServer
 
         public async Task<Usuarios> GetUsuariosAsync(string _user, string _password)
         {
-            // Validar el parámetro de entrada
             if (string.IsNullOrEmpty(_user))
-            {
                 throw new ArgumentException("El Usuario no debe ser vacío.", nameof(_user));
-            }
-            if (string.IsNullOrEmpty(_password))
-            {
-                throw new ArgumentException("La Contraseña no debe ser vacía.", nameof(_password));
-            }
 
-            // Crear el comando para llamar al procedimiento almacenado
+            if (string.IsNullOrEmpty(_password))
+                throw new ArgumentException("La Contraseña no debe estar vacía.", nameof(_password));
+
             using (var command = new SqlCommand("sp_MantenimientoUsuarios", _context, _transaction))
             {
                 command.CommandType = CommandType.StoredProcedure;
 
-                // Agregar los parámetros con validación para evitar inyecciones SQL
-                command.Parameters.Add(new SqlParameter("@Opcion", SqlDbType.VarChar)
-                {
-                    Value = 6,
-                });
+                command.Parameters.AddWithValue("@Correo", _user);
+                command.Parameters.AddWithValue("@Contraseña", _password);
+                command.Parameters.AddWithValue("@Opcion", 6);
 
-                command.Parameters.Add(new SqlParameter("@Correo", SqlDbType.VarChar)
+                SqlParameter resultadoParam = new SqlParameter("@Resultado", SqlDbType.Bit)
                 {
-                    Value = _user,
-                });
-                command.Parameters.Add(new SqlParameter("@Contraseña", SqlDbType.VarChar)
-                {
-                    Value = _password,
-                });
+                    Direction = ParameterDirection.Output
+                };
+                command.Parameters.Add(resultadoParam);
 
                 try
                 {
@@ -90,30 +80,33 @@ namespace Repository.SqlServer
                         {
                             return new Usuarios
                             {
-                                // Aquí debes asignar los valores obtenidos de la lectura de la base de datos
-                                // Por ejemplo:
-                                // Id = Convert.ToInt32(reader["Id"]),
-                                // Nombre = reader["Nombre"].ToString()
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Nombre = reader["Nombre"].ToString(),
+                                Correo = reader["Correo"].ToString(),
+                                Contraseña = reader["Contraseña"].ToString()
                             };
                         }
+                    }
+
+                    bool resultado = Convert.ToBoolean(resultadoParam.Value);
+                    if (!resultado)
+                    {
+                        throw new ApplicationException("La operación no se completó correctamente.");
                     }
                 }
                 catch (SqlException ex)
                 {
-                    // Manejo de errores específicos de SQL
                     throw new ApplicationException("Ocurrió un error al intentar recuperar los datos.", ex);
                 }
                 catch (Exception ex)
                 {
-                    // Manejo de cualquier otro tipo de excepción
                     throw new ApplicationException("Ocurrió un error inesperado.", ex);
                 }
             }
 
-            // Devolver null si no se encontró ningún cliente
             return null;
         }
 
-       
+
     }
 }
