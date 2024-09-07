@@ -1,16 +1,12 @@
-﻿using Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
-using UnitOfWork.SqlServer;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Services;
 
 namespace CafeXperienceApp.Controllers
 {
     public class UsuariosController : Controller
     {
+
         private readonly IUsuariosService _usuarioService;
 
         public UsuariosController(IUsuariosService usuarioService)
@@ -18,34 +14,35 @@ namespace CafeXperienceApp.Controllers
             _usuarioService = usuarioService;
         }
 
+
         public async Task<ActionResult> Index()
         {
-            var _usuario= await _usuarioService.GetUsuariosAsync("mejiafelipe200@gmail.com", "1234");
-           
+            var _usuario = await _usuarioService.GetUsuariosAsync("mejiafelipe200@gmail.com", "1234");
+
             return View();
         }
 
-        // GET: Usuarios/Details/5
+
+        // GET: UsuariosController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Usuarios/Create
+        // GET: UsuariosController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Usuarios/Create
+        // POST: UsuariosController/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
         {
             try
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             catch
             {
@@ -53,21 +50,20 @@ namespace CafeXperienceApp.Controllers
             }
         }
 
-        // GET: Usuarios/Edit/5
+        // GET: UsuariosController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Usuarios/Edit/5
+        // POST: UsuariosController/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
         {
             try
             {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             catch
             {
@@ -75,21 +71,20 @@ namespace CafeXperienceApp.Controllers
             }
         }
 
-        // GET: Usuarios/Delete/5
+        // GET: UsuariosController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Usuarios/Delete/5
+        // POST: UsuariosController/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
         {
             try
             {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             catch
             {
