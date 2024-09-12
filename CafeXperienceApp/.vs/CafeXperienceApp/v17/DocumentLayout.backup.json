@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\repository.sqlserver\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|solutionrelative:repository.sqlserver\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.sqlserver\\unitofworksqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\repository.sqlserver\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{722F9EED-B4DE-415D-B644-626BBEE2B68D}|Repository.SqlServer\\Repository.SqlServer.csproj|solutionrelative:repository.sqlserver\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.sqlserver\\unitofworksqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|solutionrelative:unitofwork.sqlserver\\unitofworksqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AF62C63-2FF0-4264-9633-36F3F460FBDD}|UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj|C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\unitofwork.sqlserver\\unitofworksqlserveradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,39 +74,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUnitOfWorkRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
-              "RelativeDocumentMoniker": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
-              "RelativeToolTip": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CafeXperienceApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T16:57:39.202Z"
+              "WhenOpened": "2024-09-07T16:36:37.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Parameters.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Common\\Parameters.cs",
-              "RelativeDocumentMoniker": "Common\\Parameters.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Common\\Parameters.cs",
-              "RelativeToolTip": "Common\\Parameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "CafeXperienceApp\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T15:25:29.098Z"
+              "WhenOpened": "2024-09-07T15:20:16.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.SqlServer\\UsuariosRepository.cs",
+              "RelativeDocumentMoniker": "Repository.SqlServer\\UsuariosRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.SqlServer\\UsuariosRepository.cs",
+              "RelativeToolTip": "Repository.SqlServer\\UsuariosRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:58:38.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,62 +144,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CafeXperienceApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T16:36:37.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "CafeXperienceApp\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T15:20:16.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuariosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.SqlServer\\UsuariosRepository.cs",
-              "RelativeDocumentMoniker": "Repository.SqlServer\\UsuariosRepository.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Repository.SqlServer\\UsuariosRepository.cs",
-              "RelativeToolTip": "Repository.SqlServer\\UsuariosRepository.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwGoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T16:58:38.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "UnitOfWorkSqlServer.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "RelativeDocumentMoniker": "UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
               "RelativeToolTip": "UnitOfWork.SqlServer\\UnitOfWorkSqlServer.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T16:53:25.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsuariosService.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Services\\UsuariosService.cs",
-              "RelativeDocumentMoniker": "Services\\UsuariosService.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Services\\UsuariosService.cs",
-              "RelativeToolTip": "Services\\UsuariosService.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T16:54:28.235Z"
             },
             {
               "$type": "Document",
@@ -230,6 +191,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAG4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T16:34:58.794Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Parameters.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Common\\Parameters.cs",
+              "RelativeDocumentMoniker": "Common\\Parameters.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Common\\Parameters.cs",
+              "RelativeToolTip": "Common\\Parameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T15:25:29.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUnitOfWorkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
+              "RelativeToolTip": "UnitOfWork.Interfaces\\IUnitOfWorkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:57:39.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuariosService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Services\\UsuariosService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuariosService.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Services\\UsuariosService.cs",
+              "RelativeToolTip": "Services\\UsuariosService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:54:28.235Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Cafeteria.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Models\\Cafeteria.cs",
@@ -251,18 +263,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T15:27:40.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAG4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-07T16:34:58.794Z"
             },
             {
               "$type": "Document",
