@@ -1,16 +1,11 @@
-using Services;
-using System.ComponentModel;
-using UnitOfWork.Interfaces;
-using UnitOfWork.SqlServer;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Registro de servicios en el contenedor de inyección de dependencias
-builder.Services.AddScoped<IUsuariosService, UsuariosService>();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWorkSqlServer>();
+
 
 var app = builder.Build();
 

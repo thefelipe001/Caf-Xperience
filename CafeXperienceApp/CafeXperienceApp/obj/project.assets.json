@@ -2116,92 +2116,6 @@
             "rid": "win"
           }
         }
-      },
-      "Common/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Common.dll": {}
-        }
-      },
-      "Models/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Models.dll": {}
-        }
-      },
-      "Repository.Interfaces/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Repository.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Repository.Interfaces.dll": {}
-        }
-      },
-      "Repository.SqlServer/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Models": "1.0.0",
-          "Repository.Interfaces": "1.0.0",
-          "UnitOfWork.Interfaces": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Repository.SqlServer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Repository.SqlServer.dll": {}
-        }
-      },
-      "Services/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Models": "1.0.0",
-          "Repository.Interfaces": "1.0.0",
-          "Repository.SqlServer": "1.0.0",
-          "UnitOfWork.Interfaces": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Services.dll": {}
-        }
-      },
-      "UnitOfWork.Interfaces/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Repository.Interfaces": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UnitOfWork.Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UnitOfWork.Interfaces.dll": {}
-        }
-      },
-      "UnitOfWork.SqlServer/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Common": "1.0.0",
-          "Repository.Interfaces": "1.0.0",
-          "Repository.SqlServer": "1.0.0",
-          "UnitOfWork.Interfaces": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UnitOfWork.SqlServer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UnitOfWork.SqlServer.dll": {}
-        }
       }
     }
   },
@@ -6163,50 +6077,12 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Common/1.0.0": {
-      "type": "project",
-      "path": "../Common/Common.csproj",
-      "msbuildProject": "../Common/Common.csproj"
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
-    },
-    "Repository.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../Repository.Interfaces/Repository.Interfaces.csproj",
-      "msbuildProject": "../Repository.Interfaces/Repository.Interfaces.csproj"
-    },
-    "Repository.SqlServer/1.0.0": {
-      "type": "project",
-      "path": "../Repository.SqlServer/Repository.SqlServer.csproj",
-      "msbuildProject": "../Repository.SqlServer/Repository.SqlServer.csproj"
-    },
-    "Services/1.0.0": {
-      "type": "project",
-      "path": "../Services/Services.csproj",
-      "msbuildProject": "../Services/Services.csproj"
-    },
-    "UnitOfWork.Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../UnitOfWork.Interfaces/UnitOfWork.Interfaces.csproj",
-      "msbuildProject": "../UnitOfWork.Interfaces/UnitOfWork.Interfaces.csproj"
-    },
-    "UnitOfWork.SqlServer/1.0.0": {
-      "type": "project",
-      "path": "../UnitOfWork.SqlServer/UnitOfWork.SqlServer.csproj",
-      "msbuildProject": "../UnitOfWork.SqlServer/UnitOfWork.SqlServer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.4",
-      "Services >= 1.0.0",
-      "System.Data.SqlClient >= 4.8.6",
-      "UnitOfWork.Interfaces >= 1.0.0",
-      "UnitOfWork.SqlServer >= 1.0.0"
+      "System.Data.SqlClient >= 4.8.6"
     ]
   },
   "packageFolders": {
@@ -6241,17 +6117,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\Services\\Services.csproj"
-            },
-            "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj"
-            },
-            "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

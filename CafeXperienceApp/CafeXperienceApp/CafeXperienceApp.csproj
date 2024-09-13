@@ -11,10 +11,4 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Services\Services.csproj" />
-    <ProjectReference Include="..\UnitOfWork.Interfaces\UnitOfWork.Interfaces.csproj" />
-    <ProjectReference Include="..\UnitOfWork.SqlServer\UnitOfWork.SqlServer.csproj" />
-  </ItemGroup>
-
 </Project>

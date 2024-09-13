@@ -1,23 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Services;
 
 namespace CafeXperienceApp.Controllers
 {
     public class UsuariosController : Controller
     {
 
-        private readonly IUsuariosService _usuarioService;
 
-        public UsuariosController(IUsuariosService usuarioService)
+        public ActionResult Index()
         {
-            _usuarioService = usuarioService;
-        }
-
-
-        public async Task<ActionResult> Index()
-        {
-            var _usuario = await _usuarioService.GetUsuariosAsync("mejiafelipe200@gmail.com", "1234");
 
             return View();
         }

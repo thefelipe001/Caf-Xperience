@@ -9,10 +9,7 @@
       "CafeXperienceApp/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.4",
-          "Services": "1.0.0",
-          "System.Data.SqlClient": "4.8.6",
-          "UnitOfWork.Interfaces": "1.0.0",
-          "UnitOfWork.SqlServer": "1.0.0"
+          "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
           "CafeXperienceApp.dll": {}
@@ -1550,85 +1547,6 @@
             "fileVersion": "7.0.22.51805"
           }
         }
-      },
-      "Common/1.0.0": {
-        "runtime": {
-          "Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Models/1.0.0": {
-        "runtime": {
-          "Models.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Repository.Interfaces/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "runtime": {
-          "Repository.Interfaces.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Repository.SqlServer/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0",
-          "Repository.Interfaces": "1.0.0",
-          "UnitOfWork.Interfaces": "1.0.0"
-        },
-        "runtime": {
-          "Repository.SqlServer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Services/1.0.0": {
-        "dependencies": {
-          "Models": "1.0.0",
-          "Repository.Interfaces": "1.0.0",
-          "Repository.SqlServer": "1.0.0",
-          "UnitOfWork.Interfaces": "1.0.0"
-        },
-        "runtime": {
-          "Services.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "UnitOfWork.Interfaces/1.0.0": {
-        "dependencies": {
-          "Repository.Interfaces": "1.0.0"
-        },
-        "runtime": {
-          "UnitOfWork.Interfaces.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "UnitOfWork.SqlServer/1.0.0": {
-        "dependencies": {
-          "Common": "1.0.0",
-          "Repository.Interfaces": "1.0.0",
-          "Repository.SqlServer": "1.0.0",
-          "UnitOfWork.Interfaces": "1.0.0"
-        },
-        "runtime": {
-          "UnitOfWork.SqlServer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -2505,41 +2423,6 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
-    },
-    "Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Repository.Interfaces/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Repository.SqlServer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Services/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnitOfWork.Interfaces/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnitOfWork.SqlServer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
