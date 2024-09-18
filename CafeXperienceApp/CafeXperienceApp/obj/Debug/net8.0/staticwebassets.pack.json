@@ -1,991 +1,991 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CafeXperienceApp.bundle.scp.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CafeXperienceApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\CafeXperienceApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\css\\all.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\css\\all.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\css\\main.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\css\\main.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\css\\util.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\css\\util.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\css\\util.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\animated.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\animated.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\core.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\core.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\icons.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\icons.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\larger.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\larger.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\list.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\list.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\path.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\path.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\variables.less",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\less\\variables.less"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Black.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Bold.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Italic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Light.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Medium.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Regular.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Thin.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\OFL.txt",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\montserrat\\OFL.txt",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\montserrat\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Black.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Black.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Bold.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Bold.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Italic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Italic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Light.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Light.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Medium.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Medium.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Regular.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Regular.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Thin.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-Thin.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\fonts\\poppins\\Poppins-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\fonts\\poppins\\Poppins-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\images\\icons\\favicon.ico",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\images\\icons\\favicon.ico",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\images\\icons\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\images\\img-01.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\images\\img-01.png",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\images\\img-01.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\images\\imgUsuario.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\images\\imgUsuario.png",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\images\\imgUsuario.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\js\\main.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\js\\main.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\animate\\animate.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\animate\\animate.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\animate\\animate.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\tooltip.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\bootstrap\\js\\tooltip.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\bootstrap\\js\\tooltip.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\css-hamburgers\\hamburgers.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\jquery\\jquery-3.2.1.min.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\jquery\\jquery-3.2.1.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.min.css",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\select2\\select2.min.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\select2\\select2.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\tilt\\tilt.jquery.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\vendor\\tilt\\tilt.jquery.min.js",
       "PackagePath": "staticwebassets\\Design\\Usuarios\\vendor\\tilt\\tilt.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\ReCaptcha.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\ReCaptcha.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\ReCaptcha.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Curl.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Curl.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\Curl.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\CurlPost.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\CurlPost.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\CurlPost.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Post.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Post.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\Post.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Socket.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\Socket.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\Socket.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\SocketPost.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestMethod\\SocketPost.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestMethod\\SocketPost.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestParameters.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\RequestParameters.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\RequestParameters.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\Response.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\Response.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\Response.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\autoload.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\ReCaptcha\\autoload.php",
       "PackagePath": "staticwebassets\\Design\\bat\\ReCaptcha\\autoload.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\PHPMailerAutoload.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\PHPMailerAutoload.php",
       "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\PHPMailerAutoload.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\class.phpmailer.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\class.phpmailer.php",
       "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\class.phpmailer.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\class.pop3.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\class.pop3.php",
       "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\class.pop3.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\class.smtp.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\phpmailer\\class.smtp.php",
       "PackagePath": "staticwebassets\\Design\\bat\\phpmailer\\class.smtp.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-mailform.config.json",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-mailform.config.json",
       "PackagePath": "staticwebassets\\Design\\bat\\rd-mailform.config.json"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-mailform.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-mailform.php",
       "PackagePath": "staticwebassets\\Design\\bat\\rd-mailform.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-mailform.tpl",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-mailform.tpl",
       "PackagePath": "staticwebassets\\Design\\bat\\rd-mailform.tpl"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-search.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\rd-search.php",
       "PackagePath": "staticwebassets\\Design\\bat\\rd-search.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\reCaptcha.php",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\bat\\reCaptcha.php",
       "PackagePath": "staticwebassets\\Design\\bat\\reCaptcha.php"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\css\\bootstrap.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Design\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\css\\fonts.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\css\\fonts.css",
       "PackagePath": "staticwebassets\\Design\\css\\fonts.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\css\\style.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\css\\style.css",
       "PackagePath": "staticwebassets\\Design\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Design\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.eot",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.eot",
       "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.svg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.svg",
       "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.ttf",
       "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.woff",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\Linearicons.woff",
       "PackagePath": "staticwebassets\\Design\\fonts\\Linearicons.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Design\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.eot",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.eot",
       "PackagePath": "staticwebassets\\Design\\fonts\\lg.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.svg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.svg",
       "PackagePath": "staticwebassets\\Design\\fonts\\lg.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.ttf",
       "PackagePath": "staticwebassets\\Design\\fonts\\lg.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.woff",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\lg.woff",
       "PackagePath": "staticwebassets\\Design\\fonts\\lg.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.eot",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.eot",
       "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.svg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.svg",
       "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.ttf",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.ttf",
       "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.woff",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.woff",
       "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.woff2",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\fonts\\materialdesignicons-webfont.woff2",
       "PackagePath": "staticwebassets\\Design\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\BreakFast.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\BreakFast.png",
       "PackagePath": "staticwebassets\\Design\\images\\BreakFast.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Cocinero.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Cocinero.png",
       "PackagePath": "staticwebassets\\Design\\images\\Cocinero.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Dinner.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Dinner.png",
       "PackagePath": "staticwebassets\\Design\\images\\Dinner.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Luch.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Luch.png",
       "PackagePath": "staticwebassets\\Design\\images\\Luch.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\_blank.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\_blank.png",
       "PackagePath": "staticwebassets\\Design\\images\\_blank.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\ajax-loader.gif",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\Design\\images\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\arrow-110x14.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\arrow-110x14.png",
       "PackagePath": "staticwebassets\\Design\\images\\arrow-110x14.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\banner-top-2050x60.jpg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\banner-top-2050x60.jpg",
       "PackagePath": "staticwebassets\\Design\\images\\banner-top-2050x60.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\bg-pattern-boxed.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\bg-pattern-boxed.png",
       "PackagePath": "staticwebassets\\Design\\images\\bg-pattern-boxed.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\favicon.ico",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\Design\\images\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\gmap_marker.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\gmap_marker.png",
       "PackagePath": "staticwebassets\\Design\\images\\gmap_marker.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\gmap_marker_active.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\gmap_marker_active.png",
       "PackagePath": "staticwebassets\\Design\\images\\gmap_marker_active.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-01-382x375.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-01-382x375.png",
       "PackagePath": "staticwebassets\\Design\\images\\home-01-382x375.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-02-293x293.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-02-293x293.png",
       "PackagePath": "staticwebassets\\Design\\images\\home-02-293x293.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-03-461x407.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-03-461x407.png",
       "PackagePath": "staticwebassets\\Design\\images\\home-03-461x407.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-04-191x191.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\home-04-191x191.png",
       "PackagePath": "staticwebassets\\Design\\images\\home-04-191x191.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\ie8-panel\\warning_bar_0000_us.jpg",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\ie8-panel\\warning_bar_0000_us.jpg",
       "PackagePath": "staticwebassets\\Design\\images\\ie8-panel\\warning_bar_0000_us.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\loading.gif",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\loading.gif",
       "PackagePath": "staticwebassets\\Design\\images\\loading.gif"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\logo-default-363x100.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\logo-default-363x100.png",
       "PackagePath": "staticwebassets\\Design\\images\\logo-default-363x100.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\logo-inverse-363x100.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\logo-inverse-363x100.png",
       "PackagePath": "staticwebassets\\Design\\images\\logo-inverse-363x100.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\preloader.gif",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\preloader.gif",
       "PackagePath": "staticwebassets\\Design\\images\\preloader.gif"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\preloader.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\preloader.png",
       "PackagePath": "staticwebassets\\Design\\images\\preloader.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\product-01-176x176.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\product-01-176x176.png",
       "PackagePath": "staticwebassets\\Design\\images\\product-01-176x176.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\product-02-176x176.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\product-02-176x176.png",
       "PackagePath": "staticwebassets\\Design\\images\\product-02-176x176.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\product-03-176x176.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\product-03-176x176.png",
       "PackagePath": "staticwebassets\\Design\\images\\product-03-176x176.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\quote-37x29.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\quote-37x29.png",
       "PackagePath": "staticwebassets\\Design\\images\\quote-37x29.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-home-01-455x685.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-home-01-455x685.png",
       "PackagePath": "staticwebassets\\Design\\images\\shutter-home-01-455x685.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-testimonials-01-179x179.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-testimonials-01-179x179.png",
       "PackagePath": "staticwebassets\\Design\\images\\shutter-testimonials-01-179x179.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-testimonials-02-306x306.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-testimonials-02-306x306.png",
       "PackagePath": "staticwebassets\\Design\\images\\shutter-testimonials-02-306x306.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\slider-01-671x671.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\slider-01-671x671.png",
       "PackagePath": "staticwebassets\\Design\\images\\slider-01-671x671.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\slider-03-671x671.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\slider-03-671x671.png",
       "PackagePath": "staticwebassets\\Design\\images\\slider-03-671x671.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\slider-04-671x671.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\slider-04-671x671.png",
       "PackagePath": "staticwebassets\\Design\\images\\slider-04-671x671.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\testimonials-03-179x179.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\testimonials-03-179x179.png",
       "PackagePath": "staticwebassets\\Design\\images\\testimonials-03-179x179.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\video-play.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\video-play.png",
       "PackagePath": "staticwebassets\\Design\\images\\video-play.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\vimeo-play.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\vimeo-play.png",
       "PackagePath": "staticwebassets\\Design\\images\\vimeo-play.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\youtube-play.png",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\youtube-play.png",
       "PackagePath": "staticwebassets\\Design\\images\\youtube-play.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\js\\core.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\js\\core.min.js",
       "PackagePath": "staticwebassets\\Design\\js\\core.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\js\\script.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\js\\script.js",
       "PackagePath": "staticwebassets\\Design\\js\\script.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\amart\\OneDrive\\Desktop\\AlinaProject\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
