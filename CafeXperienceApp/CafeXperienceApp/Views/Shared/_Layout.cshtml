@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="~/Design/css/bootstrap.css">
     <link rel="stylesheet" href="~/Design/css/fonts.css">
     <link rel="stylesheet" href="~/Design/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         .ie-panel {
             display: none;
@@ -37,6 +36,7 @@
             <div class="ball"></div>
         </div>
     </div>
+
     <div class="page">
         <div class="position-relative">
             <header class="section page-header" id="programs">
@@ -62,9 +62,9 @@
                                         </li>
                                         <li class="rd-nav-item">
                                             <a class="rd-nav-link" href="#clients">Clientes</a>
-                                        </li>
+                                        </li> 
                                         <li class="rd-nav-item">
-                                            <a class="rd-nav-link" asp-area="" asp-controller="TipoUsuarios" asp-action="Index">Tipo Usuarios</a>
+                                            <a class="rd-nav-link" href="@Url.Action("Index","Usuarios")">Sistema de Cafetería</a>
                                         </li>
                                         <li class="rd-nav-item">
                                             <a class="rd-nav-link" data-custom-toggle="#rd-navbar-aside">Acceder</a>
@@ -251,6 +251,15 @@
             </div>
         </footer>
     </div>
+
+
+
+
+
+
+
+
+
     <div class="snackbars" id="form-output-global"></div>
     <script src="~/Design/js/core.min.js"></script>
     <script src="~/Design/js/script.js"></script>

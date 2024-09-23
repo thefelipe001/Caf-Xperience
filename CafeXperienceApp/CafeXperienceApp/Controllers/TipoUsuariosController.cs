@@ -7,151 +7,152 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CafeXperienceApp.Data;
 using CafeXperienceApp.Models;
+using CafeXperienceApp.Repositorio;
+using CafeXperienceApp.Interfaces;
 
 namespace CafeXperienceApp.Controllers
 {
     public class TipoUsuariosController : Controller
     {
-        private readonly Data.ApplicationDbContext _context;
+        private readonly IBaseRepository<TipoUsuario> _tipoUsuariorepositorio;
 
-        public TipoUsuariosController(Data.ApplicationDbContext context)
+        public TipoUsuariosController(IBaseRepository<TipoUsuario> tipoUsuariorepositorio)
         {
-            _context = context;
+            _tipoUsuariorepositorio = tipoUsuariorepositorio;
         }
 
-        // GET: TipoUsuarios
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.TipoUsuarios.ToListAsync());
-        }
-
-        // GET: TipoUsuarios/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var tipoUsuario = await _context.TipoUsuarios
-                .FirstOrDefaultAsync(m => m.IdTipoUsuarios == id);
-            if (tipoUsuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(tipoUsuario);
-        }
-
-        // GET: TipoUsuarios/Create
-        public IActionResult Create()
+        public IActionResult Index()
         {
             return View();
         }
 
-        // POST: TipoUsuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdTipoUsuarios,Descripcion,Estado")] TipoUsuario tipoUsuario)
+        public async Task<IActionResult> Data()
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(tipoUsuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(tipoUsuario);
-        }
+            var draw = HttpContext.Request.Form["draw"].FirstOrDefault();
+            var start = Request.Form["start"].FirstOrDefault();
+            var length = Request.Form["length"].FirstOrDefault();
+            var searchValue = Request.Form["search[value]"].FirstOrDefault();
 
-        // GET: TipoUsuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            int pageSize = length != null ? Convert.ToInt32(length) : 0;
+            int skip = start != null ? Convert.ToInt32(start) : 0;
 
-            var tipoUsuario = await _context.TipoUsuarios.FindAsync(id);
-            if (tipoUsuario == null)
-            {
-                return NotFound();
-            }
-            return View(tipoUsuario);
-        }
+            // Obtener los datos desde el repositorio
+            var result = await _tipoUsuariorepositorio.GetAll();
 
-        // POST: TipoUsuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdTipoUsuarios,Descripcion,Estado")] TipoUsuario tipoUsuario)
-        {
-            if (id != tipoUsuario.IdTipoUsuarios)
+            // Verificar si la operación fue exitosa
+            if (!result.Success)
             {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                // En caso de error, devolver el mensaje de error a DataTables
+                return Json(new
                 {
-                    _context.Update(tipoUsuario);
-                    await _context.SaveChangesAsync();
+                    draw = draw,
+                    recordsFiltered = 0,
+                    recordsTotal = 0,
+                    error = result.ErrorMessage
+                });
+            }
+
+            var query = result.Data;
+
+            // Aplicar el filtro de búsqueda si es necesario
+            if (!string.IsNullOrEmpty(searchValue))
+            {
+                searchValue = searchValue.ToLower();
+
+                // Verificar si el valor de búsqueda es un número, para buscar por ID
+                bool isNumericSearch = int.TryParse(searchValue, out int searchId);
+
+                query = query.Where(u =>
+                    (isNumericSearch && u.IdTipoUsuarios == searchId) ||    // Buscar por ID si es numérico
+                    u.Descripcion.ToLower().Contains(searchValue) ||        // Buscar por Descripción
+                    u.Estado.ToLower().Contains(searchValue)                // Buscar por Estado
+                );
+            }
+
+            // Mejorar el conteo: calcular el total de registros filtrados después del filtro
+            var totalRecords = query.Count();
+            var data = query.Skip(skip).Take(pageSize).ToList(); // Obtener los datos paginados
+
+            return Json(new
+            {
+                draw = draw,
+                recordsFiltered = totalRecords,  // Total de registros filtrados
+                recordsTotal = totalRecords,     // Total de registros
+                data = data
+            });
+        }
+
+
+        [HttpPost]
+        public async Task<JsonResult> GuardarAsync(TipoUsuario tipoUsuario)
+        {
+            try
+            {
+                // Asignar el estado correctamente
+                tipoUsuario.Estado = tipoUsuario.Estado == "1" ? "A" : "I";
+
+                Result<bool> result;
+
+                if (tipoUsuario.IdTipoUsuarios == 0)
+                {
+                    // Si es un nuevo registro
+                    result = await _tipoUsuariorepositorio.Add(tipoUsuario);
                 }
-                catch (DbUpdateConcurrencyException)
+                else
                 {
-                    if (!TipoUsuarioExists(tipoUsuario.IdTipoUsuarios))
+                    // Si es una actualización de un registro existente
+                    result = await _tipoUsuariorepositorio.Update(tipoUsuario);
+                }
+
+                // Verificar el resultado
+                if (result.Success)
+                {
+                    return Json(new { resultado = true });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = result.ErrorMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = ex.Message });
+            }
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> Eliminar([FromBody] TipoUsuario tipoUsuario)
+        {
+            try
+            {
+                if (tipoUsuario.IdTipoUsuarios > 0)
+                {
+                    var result = await _tipoUsuariorepositorio.Delete(tipoUsuario);
+
+                    // Verificar si la eliminación fue exitosa
+                    if (result.Success)
                     {
-                        return NotFound();
+                        return Json(new { resultado = true });
                     }
                     else
                     {
-                        throw;
+                        if (result.ErrorMessage=="Error al Eliminar: An error occurred while saving the entity changes. See the inner exception for details.")
+                        {
+                            result.ErrorMessage = "Debe reasignar los usuarios o eliminarlos antes de eliminar este tipo de usuario.";
+                        }
+                        // Asignar el estado correctamente
+                        return Json(new { resultado = false, mensaje = result.ErrorMessage });
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return Json(new { resultado = false, mensaje = "ID inválido" });
             }
-            return View(tipoUsuario);
-        }
-
-        // GET: TipoUsuarios/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
+            catch (Exception ex)
             {
-                return NotFound();
+
+                return Json(new { resultado = false, mensaje = ex.Message });
             }
-
-            var tipoUsuario = await _context.TipoUsuarios
-                .FirstOrDefaultAsync(m => m.IdTipoUsuarios == id);
-            if (tipoUsuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(tipoUsuario);
-        }
-
-        // POST: TipoUsuarios/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var tipoUsuario = await _context.TipoUsuarios.FindAsync(id);
-            if (tipoUsuario != null)
-            {
-                _context.TipoUsuarios.Remove(tipoUsuario);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool TipoUsuarioExists(int id)
-        {
-            return _context.TipoUsuarios.Any(e => e.IdTipoUsuarios == id);
         }
     }
+
 }
