@@ -1,151 +1,151 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CafeXperienceApp.Models;
+using CafeXperienceApp.Interfaces;
 
 namespace CafeXperienceApp.Controllers
 {
     public class CampusController : Controller
     {
-        private readonly Data.ApplicationDbContext _context;
+        private readonly IBaseRepository<Campus> _campusrepositorio;
 
-        public CampusController(Data.ApplicationDbContext context)
+        public CampusController(IBaseRepository<Campus> campusrepositorio)
         {
-            _context = context;
+            _campusrepositorio = campusrepositorio;
         }
 
         // GET: Campus
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Campus.ToListAsync());
-        }
-
-        // GET: Campus/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var campus = await _context.Campus
-                .FirstOrDefaultAsync(m => m.IdCampus == id);
-            if (campus == null)
-            {
-                return NotFound();
-            }
-
-            return View(campus);
-        }
-
-        // GET: Campus/Create
-        public IActionResult Create()
+        public  IActionResult Index()
         {
             return View();
         }
 
-        // POST: Campus/Create
-        // To protect from over posting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdCampus,Descripcion,Estado")] Campus campus)
+        public async Task<IActionResult> Data()
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(campus);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(campus);
-        }
+            var draw = HttpContext.Request.Form["draw"].FirstOrDefault();
+            var start = Request.Form["start"].FirstOrDefault();
+            var length = Request.Form["length"].FirstOrDefault();
+            var searchValue = Request.Form["search[value]"].FirstOrDefault();
 
-        // GET: Campus/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            int pageSize = length != null ? Convert.ToInt32(length) : 0;
+            int skip = start != null ? Convert.ToInt32(start) : 0;
 
-            var campus = await _context.Campus.FindAsync(id);
-            if (campus == null)
-            {
-                return NotFound();
-            }
-            return View(campus);
-        }
+            // Obtener los datos desde el repositorio
+            var result = await _campusrepositorio.GetAll();
 
-        // POST: Campus/Edit/5
-        // To protect from over posting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdCampus,Descripcion,Estado")] Campus campus)
-        {
-            if (id != campus.IdCampus)
+            // Verificar si la operación fue exitosa
+            if (!result.Success)
             {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                // En caso de error, devolver el mensaje de error a DataTables
+                return Json(new
                 {
-                    _context.Update(campus);
-                    await _context.SaveChangesAsync();
+                    draw = draw,
+                    recordsFiltered = 0,
+                    recordsTotal = 0,
+                    error = result.ErrorMessage
+                });
+            }
+
+            var query = result.Data;
+
+            // Aplicar el filtro de búsqueda si es necesario
+            if (!string.IsNullOrEmpty(searchValue))
+            {
+                searchValue = searchValue.ToLower();
+
+                // Verificar si el valor de búsqueda es un número, para buscar por ID
+                bool isNumericSearch = int.TryParse(searchValue, out int searchId);
+
+                query = query.Where(u =>
+                    (isNumericSearch && u.IdCampus == searchId) ||    // Buscar por ID si es numérico
+                    u.Descripcion.ToLower().Contains(searchValue) ||        // Buscar por Descripción
+                    u.Estado.ToLower().Contains(searchValue)                // Buscar por Estado
+                );
+            }
+
+            // Mejorar el conteo: calcular el total de registros filtrados después del filtro
+            var totalRecords = query.Count();
+            var data = query.Skip(skip).Take(pageSize).ToList(); // Obtener los datos paginados
+
+            return Json(new
+            {
+                draw = draw,
+                recordsFiltered = totalRecords,  // Total de registros filtrados
+                recordsTotal = totalRecords,     // Total de registros
+                data = data
+            });
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> GuardarAsync(Campus campus)
+        {
+            try
+            {
+                // Asignar el estado correctamente
+                campus.Estado = campus.Estado == "1" ? "A" : "I";
+
+                Result<bool> result;
+
+                if (campus.IdCampus == 0)
+                {
+                    // Si es un nuevo registro
+                    result = await _campusrepositorio.Add(campus);
                 }
-                catch (DbUpdateConcurrencyException)
+                else
                 {
-                    if (!CampusExists(campus.IdCampus))
+                    // Si es una actualización de un registro existente
+                    result = await _campusrepositorio.Update(campus);
+                }
+
+                // Verificar el resultado
+                if (result.Success)
+                {
+                    return Json(new { resultado = true });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = result.ErrorMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = ex.Message });
+            }
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> Eliminar([FromBody] Campus campus)
+        {
+            try
+            {
+                if (campus.IdCampus > 0)
+                {
+                    var result = await _campusrepositorio.Delete(campus);
+
+                    // Verificar si la eliminación fue exitosa
+                    if (result.Success)
                     {
-                        return NotFound();
+                        return Json(new { resultado = true });
                     }
                     else
                     {
-                        throw;
+                        if (result.ErrorMessage == "Error al Eliminar: An error occurred while saving the entity changes. See the inner exception for details.")
+                        {
+                            result.ErrorMessage = "Debe reasignar los Campus o eliminarlos antes de eliminar la cafeteria.";
+                        }
+                        // Asignar el estado correctamente
+                        return Json(new { resultado = false, mensaje = result.ErrorMessage });
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return Json(new { resultado = false, mensaje = "ID inválido" });
             }
-            return View(campus);
-        }
-
-        // GET: Campus/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
+            catch (Exception ex)
             {
-                return NotFound();
-            }
 
-            var campus = await _context.Campus
-                .FirstOrDefaultAsync(m => m.IdCampus == id);
-            if (campus == null)
-            {
-                return NotFound();
+                return Json(new { resultado = false, mensaje = ex.Message });
             }
-
-            return View(campus);
         }
 
-        // POST: Campus/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var campus = await _context.Campus.FindAsync(id);
-            if (campus != null)
-            {
-                _context.Campus.Remove(campus);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool CampusExists(int id)
-        {
-            return _context.Campus.Any(e => e.IdCampus == id);
-        }
     }
 }
