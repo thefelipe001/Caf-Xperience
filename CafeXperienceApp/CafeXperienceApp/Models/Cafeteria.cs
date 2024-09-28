@@ -17,7 +17,7 @@ public partial class Cafeteria
 
     public int IdEncargado { get; set; }
 
-    public virtual Campus IdCampusNavigation { get; set; } = null!;
+    public virtual Campus? IdCampusNavigation { get; set; } = null!;
 
-    public virtual Usuario IdEncargadoNavigation { get; set; } = null!;
+    public virtual Usuario? IdEncargadoNavigation { get; set; } = null!;
 }

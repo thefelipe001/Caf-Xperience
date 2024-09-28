@@ -12,7 +12,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Registrar el repositorio (genérico en este caso)
 builder.Services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-
+builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 // Add services to the container.
 builder.Services.AddControllersWithViews(); // Register MVC controllers with views
 

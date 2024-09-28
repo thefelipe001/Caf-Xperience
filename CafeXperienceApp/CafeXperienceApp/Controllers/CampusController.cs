@@ -21,7 +21,7 @@ namespace CafeXperienceApp.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Data()
+        public async Task<IActionResult> Data(Campus campus)
         {
             var draw = HttpContext.Request.Form["draw"].FirstOrDefault();
             var start = Request.Form["start"].FirstOrDefault();
