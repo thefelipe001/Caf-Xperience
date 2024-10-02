@@ -1,19 +1,19 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
-    ViewData["Title"] = "Tipos de Usuarios";
+    ViewData["Title"] = "Cafeteria";
 }
 
 <!-- Cargar un script personalizado -->
-<script src="~/javascripts/TipoUsuarios/home.js"></script>
+<script src="~/javascripts/Cafeteria/home.js"></script>
 
 <ol class="breadcrumb mb-4 mt-4">
     <li class="breadcrumb-item"><a href="index.html" style="color: #28a745;">Gestion</a></li>
-    <li class="breadcrumb-item active">Tipos de Usuarios</li>
+    <li class="breadcrumb-item active">Listado de Cafeteria</li>
 </ol>
 
 <div class="card mb-4">
     <div class="card-header" style="background-color: #28a745; color: white;">
-        <i class="fas fa-table me-1"></i> Listado de Tipos de Usuarios
+        <i class="fas fa-table me-1"></i> Cafeteria
     </div>
     <div class="card-body">
         <div class="row mb-4">
@@ -42,6 +42,8 @@
                 <tr>
                     <th>ID</th>
                     <th>Descripcion</th>
+                    <th>Campus</th>
+                    <th>Encargado</th>
                     <th>Estado</th>
                     <th>Acciones</th>
                 </tr>
@@ -61,21 +63,43 @@
             <!-- Sombra y bordes redondeados -->
             <div class="modal-header bg-success text-white rounded-top">
                 <!-- Fondo verde y borde redondeado superior -->
-                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión de Tipos de Usuarios</h5> <!-- Título en negrita -->
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión Cafeteria</h5> <!-- Título en negrita -->
                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Botón de cierre -->
             </div>
             <div class="modal-body px-4 py-3">
                 <!-- Espaciado interno amplio -->
                 <form id="formNivel">
-                    <input id="IdTipoUsuarios" name="IdTipoUsuarios" type="hidden" />
+                    <input id="idCafeteria" name="idCafeteria" type="hidden" />
                     <div class="row mb-4">
                         <div class="col-sm-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control required rounded-3" id="txtdescripcion" name="Descripcion" autocomplete="off" placeholder="Descripción">
-                                <label for="txtdescripcion" class="text-muted">Descripción</label>
+                                <input type="text" class="form-control required rounded-3" id="descripcion" name="descripcion" autocomplete="off" placeholder="Descripcion">
+                                <label for="Descripcion" class="text-muted">Descripcion</label>
                             </div>
                         </div>
                     </div>
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <select id="idCampus" name="idCampus" class="form-select required rounded-3">
+                                </select>
+                                <label for="Campus" class="text-muted">Campus</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <select id="idEncargado" name="idEncargado" class="form-select required rounded-3">
+                                    <!-- Las opciones se cargarán aquí mediante AJAX -->
+                                </select>
+                                <label for="idEncargado" class="text-muted">Encargado</label>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="row mb-4">
                         <div class="col-sm-12">

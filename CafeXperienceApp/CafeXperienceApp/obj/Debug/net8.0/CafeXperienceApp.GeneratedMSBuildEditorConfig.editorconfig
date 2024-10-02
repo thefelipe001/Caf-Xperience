@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dell\source\repos\Caf-Xperience\CafeXperienceApp\CafeXperienceApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dell/source/repos/Caf-Xperience/CafeXperienceApp/CafeXperienceApp/Views/Cafeteria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZXRlcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dell/source/repos/Caf-Xperience/CafeXperienceApp/CafeXperienceApp/Views/Campus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtcHVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

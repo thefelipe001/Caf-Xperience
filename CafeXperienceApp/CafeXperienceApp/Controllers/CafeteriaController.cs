@@ -5,21 +5,83 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CafeXperienceApp.Controllers
 {
-    [ApiController]
-    [Route("Api/[Controller]")]
+ 
     public class CafeteriaController : Controller
     {
-        private readonly ILogger<CafeteriaController> _logger;
         private readonly ApplicationDbContext _db;
         private readonly IBaseRepository<Cafeteria> _repository;
+        private readonly IBaseRepository<Usuario> _Usuariorepositorio;
+        private readonly IBaseRepository<Campus> _Campusrepositorio;
+        private readonly IBaseRepository<Empleados> _Empleadosrepositorio;
 
-        public CafeteriaController(ILogger<CafeteriaController> logger, ApplicationDbContext db, IBaseRepository<Cafeteria> repository)
+
+        public CafeteriaController(ILogger<CafeteriaController> logger, ApplicationDbContext db, IBaseRepository<Cafeteria> repository, IBaseRepository<Usuario> usuariorepositorio, IBaseRepository<Campus> campusrepositorio, IBaseRepository<Empleados> Empleadosrepositorio)
         {
-            _logger = logger;
             _db = db;
             _repository = repository;
-
+            _Usuariorepositorio = usuariorepositorio;
+            _Campusrepositorio = campusrepositorio;
+            _Empleadosrepositorio = Empleadosrepositorio;
         }
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> Data()
+        {
+            var draw = HttpContext.Request.Form["draw"].FirstOrDefault();
+            var start = Request.Form["start"].FirstOrDefault();
+            var length = Request.Form["length"].FirstOrDefault();
+            var searchValue = Request.Form["search[value]"].FirstOrDefault();
+
+            int pageSize = length != null ? Convert.ToInt32(length) : 0;
+            int skip = start != null ? Convert.ToInt32(start) : 0;
+
+            // Obtener los datos desde el repositorio
+            var cafeteria = await _repository.GetAll();
+            List<CafeteriaViewModel> listado = cafeteria.Data.Select(item => new CafeteriaViewModel
+            {
+                IdCafeteria = item.IdCafeteria,
+                Descripcion = item.Descripcion,
+                Encargado = _Usuariorepositorio.GetFirst(x => x.IdUsuario == item.IdEncargado)?.Data?.Nombre ?? "Desconocido",
+                Campus = _Campusrepositorio.GetFirst(x => x.IdCampus == item.IdCampus)?.Data?.Descripcion ?? "Desconocido",
+                Estado = item.Estado,
+            }).ToList();
+
+            // Filtrado
+            if (!string.IsNullOrEmpty(searchValue))
+            {
+                searchValue = searchValue.ToLower(); // Convertir el valor de búsqueda a minúsculas
+
+                // Verificar si el valor de búsqueda es un número, para buscar por ID
+                bool isNumericSearch = int.TryParse(searchValue, out int searchId);
+
+                listado = listado.Where(u =>
+                    (isNumericSearch && u.IdCafeteria == searchId) || // Buscar por ID si es numérico
+                    u.Descripcion.ToLower().Contains(searchValue)  // Buscar por Nombre
+                ).ToList();
+            }
+
+            var totalRecords = cafeteria.Data.Count(); // Método para contar registros totales
+            var totalFilteredRecords = listado.Count; // Ya filtrado
+
+            var data = listado.Skip(skip).Take(pageSize).ToList();
+
+            return Json(new
+            {
+                draw = draw,
+                recordsFiltered = totalFilteredRecords,
+                recordsTotal = totalRecords,
+                data = data
+            });
+        }
+
+
 
         [HttpGet]
         [Route("GetCafeteria")]
@@ -30,50 +92,114 @@ namespace CafeXperienceApp.Controllers
             return Ok(await _repository.GetAll());   
         }
 
+
+
+
         [HttpPost]
-        [Route("AddCafeteria")]
-        public async Task<IActionResult> AddCafeteria([FromBody] Cafeteria cafeteria)
+        public async Task<IActionResult> DataCampus()
         {
-            if (cafeteria == null)
-                return BadRequest();
+            var data = await _Campusrepositorio.GetAll();
 
-            var success = await _repository.Add(cafeteria);
+            // Verificar si hay un error en la obtención de los datos
+            if (!data.Success)
+            {
+                return Json(new { error = data.ErrorMessage });
+            }
 
-            if (success.Success)
-                return Ok(cafeteria);
-
-            return StatusCode(500, "Internal Server Error");
+            return Json(new { data = data.Data });
         }
 
-        [HttpPut]
-        [Route("UpdateCafeteria")]
-        public async Task<IActionResult> UpdateCafeteria([FromBody] Cafeteria cafeteria)
+
+        [HttpPost]
+        public async Task<IActionResult> DataEncargado()
         {
+            var data = await _Empleadosrepositorio.GetAll();
+
+            // Verificar si hay un error en la obtención de los datos
+            if (!data.Success)
+            {
+                return Json(new { error = data.ErrorMessage });
+            }
+
+            return Json(new { data = data.Data });
+        }
+        [HttpPost]
+        public async Task<JsonResult> Eliminar([FromQuery] int IdCafeteria)
+        {
+            if (IdCafeteria <= 0)
+            {
+                return Json(new { resultado = false, mensaje = "ID inválido" });
+            }
+
+            var cafeteria = await _repository.GetFirstAsync(u => u.IdCafeteria == IdCafeteria);
+
             if (cafeteria == null)
-                return BadRequest();
+            {
+                return Json(new { resultado = false, mensaje = "Cafeteria no encontrado" });
+            }
 
-            var success = await _repository.Update(cafeteria);
+            var result = await _repository.Delete(cafeteria);
 
-            if (success.Success)
-                return Ok(cafeteria);
-
-            return StatusCode(500, "Internal Server Error");
+            if (result.Success)
+            {
+                return Json(new { resultado = true });
+            }
+            else
+            {
+                return Json(new { resultado = false, mensaje = result.ErrorMessage });
+            }
         }
 
-        [HttpDelete]
-        [Route("DeleteCafeteria")]
-        public async Task<IActionResult> DeleteCafeteria([FromBody] Cafeteria cafeteria)
+
+
+
+
+
+
+        [HttpPost]
+        public async Task<JsonResult> GuardarAsync(Cafeteria cafeteria)
         {
-            if (cafeteria == null)
-                return BadRequest();
+            try
+            {
+                cafeteria.IdEncargado = 20;
+                // Validar que los campos obligatorios no estén vacíos
+                if (string.IsNullOrEmpty(cafeteria.Descripcion))
+                {
+                    return Json(new { resultado = false, mensaje = "Todos los campos son obligatorios" });
+                }
 
-            var success = await _repository.Delete(cafeteria);
+                // Establecer estado en función de la entrada
+                cafeteria.Estado = cafeteria.Estado == "1" ? "A" : "I";
 
-            if (success.Success)
-                return Ok(cafeteria);
+                Result<bool> resultado;
+                if (cafeteria.IdCafeteria == 0)
+                {
+                    // Si es un nuevo registro
+                    resultado = await _repository.Add(cafeteria);
+                }
+                else
+                {
+                    // Si es una actualización de un registro existente
+                    resultado = await _repository.Update(cafeteria);
+                }
 
-            return StatusCode(500, "Internal Server Error");
+                if (resultado.Success)
+                {
+                    return Json(new { resultado = true });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = resultado.ErrorMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = "Error al guardar: " + ex.Message });
+            }
         }
 
     }
 }
+
+
+

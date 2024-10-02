@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\JavaScripts\Cafeteria\Home.js" />
+    <Content Remove="wwwroot\JavaScripts\Cafeteria\Home.js.map" />
+    <Content Remove="wwwroot\JavaScripts\Cafeteria\Home.min.js" />
+    <Content Remove="wwwroot\JavaScripts\Cafeteria\Home.min.js.map" />
     <Content Remove="wwwroot\JavaScripts\Campus\Home.js" />
     <Content Remove="wwwroot\JavaScripts\Campus\Home.js.map" />
     <Content Remove="wwwroot\JavaScripts\Campus\Home.min.js" />
@@ -230,6 +234,10 @@
     <None Include="wwwroot\Content\DataTables\images\sort_desc_disabled.png" />
     <None Include="wwwroot\Content\DataTables\swf\flashExport.swf" />
     <None Include="wwwroot\Content\Site.css" />
+    <None Include="wwwroot\JavaScripts\Cafeteria\Home.js" />
+    <None Include="wwwroot\JavaScripts\Cafeteria\Home.js.map" />
+    <None Include="wwwroot\JavaScripts\Cafeteria\Home.min.js" />
+    <None Include="wwwroot\JavaScripts\Cafeteria\Home.min.js.map" />
     <None Include="wwwroot\JavaScripts\Campus\Home.js" />
     <None Include="wwwroot\JavaScripts\Campus\Home.js.map" />
     <None Include="wwwroot\JavaScripts\Campus\Home.min.js" />
