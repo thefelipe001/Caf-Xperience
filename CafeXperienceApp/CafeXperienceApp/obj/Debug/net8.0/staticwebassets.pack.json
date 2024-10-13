@@ -1505,6 +1505,10 @@
       "PackagePath": "staticwebassets\\Design\\images\\testimonials-03-179x179.png"
     },
     {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\usuario.png",
+      "PackagePath": "staticwebassets\\Design\\images\\usuario.png"
+    },
+    {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\video-play.png",
       "PackagePath": "staticwebassets\\Design\\images\\video-play.png"
     },
@@ -1523,6 +1527,22 @@
     {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\js\\script.js",
       "PackagePath": "staticwebassets\\Design\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Marca\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js.map",
+      "PackagePath": "staticwebassets\\JavaScripts\\Marca\\Home.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.min.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Marca\\Home.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.min.js.map",
+      "PackagePath": "staticwebassets\\JavaScripts\\Marca\\Home.min.js.map"
     },
     {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\TipoUsuarios\\Home.js",

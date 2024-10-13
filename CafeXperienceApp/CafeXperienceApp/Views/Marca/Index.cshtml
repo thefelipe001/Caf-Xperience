@@ -5,6 +5,7 @@
 
 <!-- Cargar un script personalizado -->
 <script src="~/javascripts/Marca/Home.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
 
 <ol class="breadcrumb mb-4 mt-4">
     <li class="breadcrumb-item"><a href="index.html" style="color: #28a745;">Gestion</a></li>
@@ -56,45 +57,80 @@
 <!-- Modal -->
 <div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
-        <!-- Tamaño grande -->
         <div class="modal-content shadow-lg rounded-4 border-0">
-            <!-- Sombra y bordes redondeados -->
             <div class="modal-header bg-success text-white rounded-top">
-                <!-- Fondo verde y borde redondeado superior -->
-                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión de Marcas</h5> <!-- Título en negrita -->
-                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Botón de cierre -->
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión de Marcas</h5>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body px-4 py-3">
-                <!-- Espaciado interno amplio -->
-                <form id="formNivel">
+            <div class="modal-body px-5 py-4">
+                <form id="formNivel" class="needs-validation" novalidate>
                     <input id="IdMarca" name="IdMarca" type="hidden" />
+
+                    <!-- Imagen del producto -->
+                    <div class="row mb-4 text-center">
+                        <div class="col-sm-12">
+                            <div id="imgContainer" class="border border-dark rounded-circle d-flex justify-content-center align-items-center" style="height: 200px; width: 200px; overflow: hidden; background-color: #f0f0f0;">
+                                <img id="img_producto" class="img-fluid" style="display: none;" alt="Imagen de Producto" />
+                                <span id="defaultText" class="text-muted">Imagen de Marca</span> <!-- Texto predeterminado -->
+                            </div>
+                        </div>
+                        <div class="col-sm-12 mt-3">
+                            <input class="form-control form-control-lg" type="file" id="imgproducto" onchange="readURL(this);" accept="image/*">
+                            <small class="text-muted d-block mt-2">Sube la imagen del producto</small>
+                        </div>
+                    </div>
+
+                    <!-- Campo Descripción -->
                     <div class="row mb-4">
                         <div class="col-sm-12">
-                            <div class="form-floating">
-                                <input type="text" class="form-control required rounded-3" id="txtdescripcion" name="Descripcion" autocomplete="off" placeholder="Descripción">
+                            <div class="form-floating position-relative">
+                                <input type="text" class="form-control required rounded-3" id="txtdescripcion" name="Descripcion" autocomplete="off" placeholder="Descripción" required>
                                 <label for="txtdescripcion" class="text-muted">Descripción</label>
+                                <div class="invalid-feedback">
+                                    Por favor ingresa una descripción válida.
+                                </div>
+                                <i class="bi bi-pencil-fill position-absolute top-50 end-0 translate-middle-y me-3 text-muted"></i>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Campo Estado -->
                     <div class="row mb-4">
                         <div class="col-sm-12">
-                            <div class="form-floating">
-                                <select id="cboEstado" class="form-select rounded-3" name="Estado">
+                            <div class="form-floating position-relative">
+                                <select id="cboEstado" class="form-select rounded-3" name="Estado" required>
                                     <option value="1">Activo</option>
                                     <option value="0">No Activo</option>
                                 </select>
                                 <label for="cboEstado" class="text-muted">Estado</label>
+                                <i class="bi bi-check-circle-fill position-absolute top-50 end-0 translate-middle-y me-3 text-muted"></i>
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
+
+            <!-- Botones de acción -->
             <div class="modal-footer d-flex justify-content-between">
-                <!-- Botones separados y centrados -->
                 <button type="button" class="btn btn-danger btn-lg px-4" data-bs-dismiss="modal">Cerrar</button>
                 <button type="button" class="btn btn-primary btn-lg px-4" onclick="Guardar()">Guardar</button>
             </div>
         </div>
     </div>
 </div>
+
+<!-- JavaScript para leer la imagen cargada -->
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                // Muestra la imagen y oculta el texto predeterminado
+                document.getElementById('img_producto').style.display = 'block';
+                document.getElementById('defaultText').style.display = 'none';
+                document.getElementById('img_producto').src = e.target.result;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
