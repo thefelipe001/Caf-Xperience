@@ -76,11 +76,37 @@ namespace CafeXperienceApp.Controllers
         }
 
 
+
+
         [HttpPost]
-        public async Task<JsonResult> GuardarAsync(Marca marca)
+        public async Task<JsonResult> GuardarAsync(Marca marca, IFormFile Imagen)
         {
             try
             {
+                // Manejo de la imagen
+                if (Imagen != null && Imagen.Length > 0)
+                {
+                    var fileName = Path.GetFileName(Imagen.FileName); // Obtener el nombre del archivo
+
+                    // Definir la ruta donde se guardará la imagen
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/design/images", fileName);
+
+                    // Si el archivo existe, reemplazarlo
+                    if (System.IO.File.Exists(path))
+                    {
+                        System.IO.File.Delete(path); // Eliminar el archivo existente
+                    }
+
+                    // Guardar la nueva imagen
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await Imagen.CopyToAsync(stream); // Copiar el archivo de imagen de manera asincrónica
+                    }
+
+                    // Guardar la ruta de la imagen en la base de datos
+                    marca.RutaImagen = $"~/design/images/{fileName}";
+                }
+
                 // Asignar el estado correctamente
                 marca.Estado = marca.Estado == "1" ? "A" : "I";
 
@@ -113,6 +139,14 @@ namespace CafeXperienceApp.Controllers
             }
         }
 
+
+
+
+
+
+
+
+
         [HttpPost]
         public async Task<JsonResult> Eliminar([FromBody] Marca marca)
         {
@@ -131,7 +165,7 @@ namespace CafeXperienceApp.Controllers
                     {
                         if (result.ErrorMessage=="Error al Eliminar: An error occurred while saving the entity changes. See the inner exception for details.")
                         {
-                            result.ErrorMessage = "Debe reasignar los usuarios o eliminarlos antes de eliminar esta marca.";
+                            result.ErrorMessage = "Debe reasignar los Marca o eliminarlos antes de eliminar esta marca.";
                         }
                         // Asignar el estado correctamente
                         return Json(new { resultado = false, mensaje = result.ErrorMessage });
