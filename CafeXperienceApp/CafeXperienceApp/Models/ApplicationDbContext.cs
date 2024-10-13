@@ -23,9 +23,13 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
     public virtual DbSet<Empleados> Empleados { get; set; }
+<<<<<<< HEAD
     public DbSet<CodigoVerificacion> CodigosVerificacion { get; set; }
 
 
+=======
+    public virtual DbSet<Marca> Marcas { get; set; }
+>>>>>>> 5544be25c2e3fe1b034a9f0f1ef5b5516e722717
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -127,6 +131,19 @@ public partial class ApplicationDbContext : DbContext
                 .HasForeignKey(d => d.TipoUsuarioId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Usuarios__TipoUs__60A75C0F");
+        });
+
+        modelBuilder.Entity<Marca>(entity =>
+        {
+            entity.HasKey(e => e.IdMarca).HasName("PK__Marcas__703318120C1B0F84");
+
+            entity.Property(e => e.IdMarca).HasColumnName("idMarca");
+            entity.Property(e => e.Descripcion)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Estado)
+                .HasMaxLength(1)
+                .IsFixedLength();
         });
 
         OnModelCreatingPartial(modelBuilder);

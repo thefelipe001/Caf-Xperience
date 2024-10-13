@@ -450,4 +450,8 @@
     <None Include="wwwroot\Scripts\umd\popper.min.js.map" />
   </ItemGroup>
 
+  <ItemGroup>
+    <AdditionalFiles Include="Views\Marca\Index.cshtml" />
+  </ItemGroup>
+
 </Project>
