@@ -1409,6 +1409,10 @@
       "PackagePath": "staticwebassets\\Design\\images\\bg-pattern-boxed.png"
     },
     {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\descarga.jpg",
+      "PackagePath": "staticwebassets\\Design\\images\\descarga.jpg"
+    },
+    {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\Design\\images\\favicon.ico"
     },

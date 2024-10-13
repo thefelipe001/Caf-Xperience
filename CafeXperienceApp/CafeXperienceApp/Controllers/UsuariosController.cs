@@ -206,20 +206,7 @@ namespace CafeXperienceApp.Controllers
                 return BadRequest(new { message = "Usuario no encontrado" });
             }
 
-            // Verificar el código de verificación
-            var codigoVerificacion = await _context.CodigosVerificacion
-                .Where(c => c.UsuarioId == usuario.IdUsuario && c.EsActivo)
-                .FirstOrDefaultAsync();
-
-            if (codigoVerificacion == null)
-            {
-                return BadRequest(new { message = "Código de verificación incorrecto o expirado" });
-            }
-
-            // Desactivar el código para que no se pueda usar nuevamente
-            codigoVerificacion.EsActivo = true;
-            _context.CodigosVerificacion.Update(codigoVerificacion);
-
+          
             // Encriptar y cambiar la contraseña
             _context.Usuarios.Update(usuario);
 

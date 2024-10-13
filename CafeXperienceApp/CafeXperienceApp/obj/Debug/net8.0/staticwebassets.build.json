@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jRIEYR9qAQLYcfXQeHBgX/89Vw3ytwHdaFYyx10p26U=",
+  "Hash": "eGw0AYiBtfdKq65cpi7IuVm7jiKX8kxBSC134cNGznE=",
   "Source": "CafeXperienceApp",
   "BasePath": "_content/CafeXperienceApp",
   "Mode": "Default",
@@ -5848,6 +5848,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Design\\images\\Cocinero.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\descarga.jpg",
+      "SourceId": "CafeXperienceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\",
+      "BasePath": "_content/CafeXperienceApp",
+      "RelativePath": "Design/images/descarga.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\images\\descarga.jpg"
     },
     {
       "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Dinner.png",
