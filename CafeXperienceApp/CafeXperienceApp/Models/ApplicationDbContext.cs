@@ -23,20 +23,7 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
     public virtual DbSet<Empleados> Empleados { get; set; }
-<<<<<<< HEAD
-<<<<<<< HEAD
     public virtual DbSet<Marca> Marcas { get; set; }
-=======
-    public DbSet<CodigoVerificacion> CodigosVerificacion { get; set; }
-
-
->>>>>>> dc42ce2029aee03b184f69217cdd60c10ec4517c
-=======
-    public DbSet<CodigoVerificacion> CodigosVerificacion { get; set; }
-
-
-    public virtual DbSet<Marca> Marcas { get; set; }
->>>>>>> feature/cafeteria-management
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
