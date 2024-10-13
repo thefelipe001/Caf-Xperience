@@ -63,12 +63,12 @@
                                         <li class="rd-nav-item">
                                             <a class="rd-nav-link" href="#clients">Clientes</a>
                                         </li> 
-                                        <li class="rd-nav-item">
+                                      @*   <li class="rd-nav-item">
                                             <a class="rd-nav-link" href="@Url.Action("Index","Usuarios")">Sistema de Cafetería</a>
                                         </li>
                                         <li class="rd-nav-item">
                                             <a class="rd-nav-link" asp-area="" asp-controller="Campus" asp-action="Index">Campus</a>
-                                        </li>
+                                        </li> *@
                                         <li class="rd-nav-item">
                                             <a class="rd-nav-link" data-custom-toggle="#rd-navbar-aside">Acceder</a>
                                         </li>
@@ -92,8 +92,8 @@
 
                                 <br />
                                 <div class="col-12" id="PoscionBotones">
-                                    <a class="button button-primary" href="@Url.Action("Index","Usuarios")">Acceder como Empleado o Cliente</a>
-                                    <a class="button button-primary">Registrate como Cliente</a>
+                                    <a class="button button-primary" href="@Url.Action("Login","Usuarios")">Acceder como Empleado o Cliente</a>
+                                    <a class="button button-primary" href="@Url.Action("RegistrarCliente","Usuarios")">Registrate como Cliente</a>
                                 </div>
                             </div>
                         </div>

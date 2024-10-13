@@ -165,8 +165,6 @@ $(document).ready(function () {
             data: formData, // Enviamos los datos serializados
             success: function (data) {
                 if (data.resultado) {
-                    table.ajax.reload();
-                    $('#FormModal').modal('hide');
                     Swal.fire({
                         icon: 'success',
                         title: 'Guardado!',

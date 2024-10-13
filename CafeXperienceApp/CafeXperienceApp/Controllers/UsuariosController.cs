@@ -1,7 +1,17 @@
 ﻿using CafeXperienceApp.Interfaces;
 using CafeXperienceApp.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Scripting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Org.BouncyCastle.Crypto.Generators;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace CafeXperienceApp.Controllers
 {
@@ -9,11 +19,14 @@ namespace CafeXperienceApp.Controllers
     {
         private readonly IBaseRepository<Usuario> _Usuariorepositorio;
         private readonly IBaseRepository<TipoUsuario> _TipoUsuariorepositorio;
+        private readonly ApplicationDbContext _context;
 
-        public UsuariosController(IBaseRepository<Usuario> Usuariorepositorio, IBaseRepository<TipoUsuario> TipoUsuariorepositorio)
+
+        public UsuariosController(IBaseRepository<Usuario> Usuariorepositorio, IBaseRepository<TipoUsuario> TipoUsuariorepositorio, ApplicationDbContext context)
         {
             _Usuariorepositorio = Usuariorepositorio;
             _TipoUsuariorepositorio = TipoUsuariorepositorio;
+            _context = context;
         }
 
         public ActionResult Index()
@@ -163,6 +176,146 @@ namespace CafeXperienceApp.Controllers
         {
             return View();
         }
+
+
+
+        public IActionResult RegistrarCliente()
+        {
+            return View();
+        }
+          
+        public IActionResult CambioClave()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> cambiarcontrasena([FromBody] CambioContrasenaDto cambioContrasenaDto)
+        {
+            // Validar el modelo
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { message = "Datos inválidos" });
+            }
+
+            // Verificar que el usuario exista con el correo proporcionado
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Correo == cambioContrasenaDto.Email);
+            if (usuario == null)
+            {
+                return BadRequest(new { message = "Usuario no encontrado" });
+            }
+
+            // Verificar el código de verificación
+            var codigoVerificacion = await _context.CodigosVerificacion
+                .Where(c => c.UsuarioId == usuario.IdUsuario && c.EsActivo)
+                .FirstOrDefaultAsync();
+
+            if (codigoVerificacion == null)
+            {
+                return BadRequest(new { message = "Código de verificación incorrecto o expirado" });
+            }
+
+            // Desactivar el código para que no se pueda usar nuevamente
+            codigoVerificacion.EsActivo = true;
+            _context.CodigosVerificacion.Update(codigoVerificacion);
+
+            // Encriptar y cambiar la contraseña
+            _context.Usuarios.Update(usuario);
+
+            // Guardar los cambios en la base de datos
+            try
+            {
+                await _context.SaveChangesAsync();
+                return Ok(new { message = "Contraseña cambiada exitosamente" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Ocurrió un error al cambiar la contraseña", error = ex.Message });
+            }
+        }
+
+
+        [HttpPost("api/registro")]
+        [ValidateAntiForgeryToken]
+        public async Task<JsonResult> RegistrarUsuario([FromBody] Usuario usuario)
+        {
+            try
+            {
+                // Validar que los campos obligatorios no estén vacíos
+                if (string.IsNullOrEmpty(usuario.Nombre) || string.IsNullOrEmpty(usuario.Cedula) || string.IsNullOrEmpty(usuario.Correo))
+                {
+                    return Json(new { resultado = false, mensaje = "Todos los campos son obligatorios" });
+                }
+
+                // Establecer estado en función de la entrada
+                usuario.Estado ="A";
+                usuario.TipoUsuarioId = 25;
+
+                Result<bool> resultado;
+
+                resultado = await _Usuariorepositorio.Add(usuario);
+            
+
+                if (resultado.Success)
+                {
+                    return Json(new { resultado = true });
+                }
+                else
+                {
+                    return Json(new { resultado = false, mensaje = resultado.ErrorMessage });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { resultado = false, mensaje = "Error al guardar: " + ex.Message });
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
+        {
+            // Buscar al usuario por su correo y contraseña
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.Correo == loginDto.Email && u.Contraseña == loginDto.Password);
+
+            // Validar si el usuario existe y si la contraseña es correcta
+            if (usuario == null)
+            {
+                return Unauthorized(new { message = "Credenciales incorrectas" });
+            }
+
+            // If the user does exist
+            List<Claim> claims = new List<Claim>() {
+                new Claim(ClaimTypes.Name, usuario.Nombre),
+                new Claim(ClaimTypes.Email, usuario.Correo),
+            };
+
+            ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme); // Register structure
+            AuthenticationProperties properties = new AuthenticationProperties()
+            {
+                AllowRefresh = true,
+            };   // Create properties
+
+            await HttpContext.SignInAsync(  // Register user login
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                    properties
+                );
+
+            return RedirectToAction("Index", "Dashboard");
+
+
+        }
+
+
+        public async Task<IActionResult> Singout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);  // Close Session
+
+            return RedirectToAction("Login", "Usuarios");
+        }
+
     }
 
 }

@@ -109,7 +109,6 @@ namespace CafeXperienceApp.Repositorio
             return currentQuery;
         }
 
-
         public async Task<T> GetFirstAsync(Expression<Func<T, bool>> query)
         {
             return await dbSet.FirstOrDefaultAsync(query);
