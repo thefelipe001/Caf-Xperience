@@ -1373,6 +1373,10 @@
       "PackagePath": "staticwebassets\\Design\\images\\BreakFast.png"
     },
     {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Cafeteria-Food.png",
+      "PackagePath": "staticwebassets\\Design\\images\\Cafeteria-Food.png"
+    },
+    {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Cocinero.png",
       "PackagePath": "staticwebassets\\Design\\images\\Cocinero.png"
     },

@@ -123,12 +123,27 @@
         <a id="TipoLetras" class="navbar-brand ps-3" href="#">CafeXperience</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+
         <ul class="navbar-nav ms-auto me-0 me-md-3 my-2 my-md-0">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="@Url.Action("CerrarSesion","Usuario")">Cerrar Sesion</a></li>
-                </ul>
+                @if (User.Identity.IsAuthenticated)
+
+                {
+                    <!-- Aquí se muestra el nombre del usuario logueado -->
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user fa-fw"></i> @User.Identity.Name
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="@Url.Action("Singout","Usuarios")">Cerrar Sesión</a></li>
+                    </ul>
+                }
+
+                else
+
+                {
+                    <!-- Si el usuario no está logueado, mostrar enlace para iniciar sesión -->
+                    <a class="nav-link" href="@Url.Action("Login", "Account")">Iniciar Sesión</a>
+                }
             </li>
         </ul>
     </nav>
@@ -163,11 +178,20 @@
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Bienvenido:</div>
-                    Servicio de Cafeteria
+                    @if (User.Identity.IsAuthenticated)
+
+                    {
+                        <span>@User.Identity.Name</span>
+                    }
+
+                    else
+
+                    {
+                        <span>Invitado</span>
+                    }
                 </div>
             </nav>
         </div>
-
 
         <div id="layoutSidenav_content">
             <main>
@@ -245,10 +269,8 @@
                     <small>Diseñado por <a href="#" class="text-success fw-bold">CafeXperience Team</a></small>
                 </div>
             </footer>
-
         </div>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     <script>
@@ -257,10 +279,6 @@
             // Toggle the side navigation
             const sidebarToggle = document.body.querySelector('#sidebarToggle');
             if (sidebarToggle) {
-                // Uncomment Below to persist sidebar toggle between refreshes
-                // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
-                //     document.body.classList.toggle('sb-sidenav-toggled');
-                // }
                 sidebarToggle.addEventListener('click', event => {
                     event.preventDefault();
                     document.body.classList.toggle('sb-sidenav-toggled');
@@ -271,10 +289,6 @@
         });
 
     </script>
-
-
-
-
 
     @RenderSection("scripts", required: false)
 

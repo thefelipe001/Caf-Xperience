@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pc9GwOTQsIUkGybe83ZubNscB3172sejZ23A2ce/f/E=",
+  "Hash": "uYUj2arMbjd1P+F1VT0ZZNDKp38WrN8kGQIux1Tlih8=",
   "Source": "CafeXperienceApp",
   "BasePath": "_content/CafeXperienceApp",
   "Mode": "Default",
@@ -5810,6 +5810,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Design\\images\\BreakFast.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Cafeteria-Food.png",
+      "SourceId": "CafeXperienceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\",
+      "BasePath": "_content/CafeXperienceApp",
+      "RelativePath": "Design/images/Cafeteria-Food.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\images\\Cafeteria-Food.png"
     },
     {
       "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\Cocinero.png",

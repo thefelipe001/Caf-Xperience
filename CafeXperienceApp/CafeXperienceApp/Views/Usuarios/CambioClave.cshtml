@@ -1,0 +1,157 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Contraseña - Caf-Xperience</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('@Url.Content("~/design/images/cafeteria-food.png")');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            border: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn-primary:hover {
+            background-color: #388E3C;
+            transform: scale(1.05);
+        }
+
+        .form-control:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container p-4">
+            <h2 class="form-header">Cambio de Contraseña</h2>
+            <form id="resetPasswordForm">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="codigo" class="form-label">Código de Verificación</label>
+                    <input type="text" class="form-control" id="codigo" name="codigo" placeholder="Ingresa un código " required>
+                </div>
+                <div class="mb-3">
+                    <label for="nuevaContraseña" class="form-label">Nueva Contraseña</label>
+                    <input type="password" class="form-control" id="nuevaContraseña" name="nuevaContraseña" placeholder="Ingresa tu nueva contraseña" required>
+                </div>
+                <div class="mb-3">
+                    <label for="confirmarContraseña" class="form-label">Confirmar Contraseña</label>
+                    <input type="password" class="form-control" id="confirmarContraseña" name="confirmarContraseña" placeholder="Confirma tu nueva contraseña" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Cambiar Contraseña</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SweetAlert JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+            $('#resetPasswordForm').on('submit', function (e) {
+                e.preventDefault();
+
+                // Validación de campos vacíos
+                let email = $('#email').val();
+                let codigo = $('#codigo').val();
+                let nuevaContraseña = $('#nuevaContraseña').val();
+                let confirmarContraseña = $('#confirmarContraseña').val();
+
+                if (!email || !codigo || !nuevaContraseña || !confirmarContraseña) {
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Campos obligatorios',
+                        text: 'Todos los campos son obligatorios.',
+                    });
+                    return;
+                }
+
+                // Validación de contraseñas
+                if (nuevaContraseña !== confirmarContraseña) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Las contraseñas no coinciden.',
+                    });
+                    return;
+                }
+
+                // Enviar datos usando AJAX
+                $.ajax({
+                    url: '/Usuarios/cambiarcontrasena', // Ruta de tu API en .NET Core
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({
+                        email: email,
+                        codigo: codigo,
+                        nuevaContraseña: nuevaContraseña
+                    }),
+                    success: function (response) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Contraseña cambiada',
+                            text: 'Contraseña cambiada exitosamente',
+                            confirmButtonText: 'Ir al Login'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = '/Usuarios/login'; // Redirigir a la página de login
+                            }
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'Ocurrió un error al cambiar la contraseña: ' + error,
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
