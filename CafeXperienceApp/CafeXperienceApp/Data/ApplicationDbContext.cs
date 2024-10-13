@@ -12,5 +12,6 @@ namespace CafeXperienceApp.Data
         public DbSet<Campus> Campus { get; set; }
 
         public DbSet<Cafeteria> Cafeterias { get; set; }
+        public DbSet<Marca> Marcas { get; set; }
     }
 }
