@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3he3dQYQO8Yu588FMl+XceSQoUGUBQznLYb2183TqGQ=",
+  "Hash": "vRHBt1jgNPdUZtylemjiyFOg7sGuPhq9Wh4WLmNYi+U=",
   "Source": "CafeXperienceApp",
   "BasePath": "_content/CafeXperienceApp",
   "Mode": "Default",
@@ -6057,6 +6057,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Design\\images\\ie8-panel\\warning_bar_0000_us.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\jugos+naturales-640w.webp",
+      "SourceId": "CafeXperienceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\",
+      "BasePath": "_content/CafeXperienceApp",
+      "RelativePath": "Design/images/jugos+naturales-640w.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\images\\jugos+naturales-640w.webp"
     },
     {
       "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\loading.gif",
