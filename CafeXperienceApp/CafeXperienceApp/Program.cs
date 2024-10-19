@@ -46,9 +46,9 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
-app.UseHttpsRedirection();
+// Habilitar archivos estáticos
 app.UseStaticFiles();
+app.UseHttpsRedirection();
 
 app.UseRouting();
 

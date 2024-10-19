@@ -31,6 +31,21 @@ namespace CafeXperienceApp.Controllers
 
         public ActionResult Index()
         {
+            ClaimsPrincipal claimUser = HttpContext.User;
+            string userName = "Usuario no autenticado";
+
+            if (claimUser?.Identity?.IsAuthenticated == true)
+            {
+                userName = claimUser.Claims
+                    .Where(c => c.Type == ClaimTypes.Name)
+                    .Select(c => c.Value)
+                    .SingleOrDefault() ?? "Claim no disponible";
+            }
+
+            ViewData["userName"] = userName;
+            ViewData["saldo"] = User.Claims.FirstOrDefault(c => c.Type == "LimiteCredito")?.Value;
+            ViewData["Rol"] = User.Claims.FirstOrDefault(c => c.Type == "Rol")?.Value;
+
             return View();
         }
 
@@ -40,7 +55,13 @@ namespace CafeXperienceApp.Controllers
             var draw = HttpContext.Request.Form["draw"].FirstOrDefault();
             var start = Request.Form["start"].FirstOrDefault();
             var length = Request.Form["length"].FirstOrDefault();
-            var searchValue = Request.Form["search[value]"].FirstOrDefault();
+
+            // Parámetros de búsqueda personalizados
+            var nombre = HttpContext.Request.Form["nombre"].FirstOrDefault();
+            var cedula = HttpContext.Request.Form["cedula"].FirstOrDefault();
+            var fechaRegistro = HttpContext.Request.Form["fechaRegistro"].FirstOrDefault();
+            var estado = HttpContext.Request.Form["estado"].FirstOrDefault();
+            var limiteCredito = HttpContext.Request.Form["limiteCredito"].FirstOrDefault();
 
             int pageSize = length != null ? Convert.ToInt32(length) : 0;
             int skip = start != null ? Convert.ToInt32(start) : 0;
@@ -59,23 +80,40 @@ namespace CafeXperienceApp.Controllers
                 TipoUsuario = _TipoUsuariorepositorio.GetFirst(x => x.IdTipoUsuarios == item.TipoUsuarioId)?.Data?.Descripcion ?? "Desconocido"
             }).ToList();
 
-            // Filtrado
-            if (!string.IsNullOrEmpty(searchValue))
+            // Filtrar por nombre
+            if (!string.IsNullOrEmpty(nombre))
             {
-                searchValue = searchValue.ToLower(); // Convertir el valor de búsqueda a minúsculas
-
-                // Verificar si el valor de búsqueda es un número, para buscar por ID
-                bool isNumericSearch = int.TryParse(searchValue, out int searchId);
-
-                listado = listado.Where(u =>
-                    (isNumericSearch && u.IdUsuario == searchId) || // Buscar por ID si es numérico
-                    u.Nombre.ToLower().Contains(searchValue) || // Buscar por Nombre
-                    u.Cedula.ToLower().Contains(searchValue) // Buscar por Cedula
-                ).ToList();
+                listado = listado.Where(u => u.Nombre.ToLower().Contains(nombre.ToLower())).ToList();
             }
 
-            var totalRecords = usuarios.Data.Count(); // Método para contar registros totales
-            var totalFilteredRecords = listado.Count; // Ya filtrado
+            // Filtrar por cédula
+            if (!string.IsNullOrEmpty(cedula))
+            {
+                listado = listado.Where(u => u.Cedula.Contains(cedula)).ToList();
+            }
+
+            // Filtrar por fecha de registro
+            if (!string.IsNullOrEmpty(fechaRegistro))
+            {
+                DateTime fecha = DateTime.Parse(fechaRegistro);
+                listado = listado.Where(u => u.FechaRegistro.Date == fecha.Date).ToList();
+            }
+
+            // Filtrar por estado
+            if (!string.IsNullOrEmpty(estado))
+            {
+                listado = listado.Where(u => u.Estado == estado).ToList();
+            }
+
+            // Filtrar por límite de crédito
+            if (!string.IsNullOrEmpty(limiteCredito))
+            {
+                decimal credito = decimal.Parse(limiteCredito);
+                listado = listado.Where(u => u.LimiteCredito == credito).ToList();
+            }
+
+            var totalRecords = usuarios.Data.Count();
+            var totalFilteredRecords = listado.Count;
 
             var data = listado.Skip(skip).Take(pageSize).ToList();
 
@@ -87,6 +125,7 @@ namespace CafeXperienceApp.Controllers
                 data = data
             });
         }
+
 
         [HttpPost]
         public async Task<JsonResult> GuardarAsync(Usuario usuario)
@@ -224,7 +263,6 @@ namespace CafeXperienceApp.Controllers
 
 
         [HttpPost("api/registro")]
-        [ValidateAntiForgeryToken]
         public async Task<JsonResult> RegistrarUsuario([FromBody] Usuario usuario)
         {
             try
@@ -272,11 +310,26 @@ namespace CafeXperienceApp.Controllers
                 return Unauthorized(new { message = "Credenciales incorrectas" });
             }
 
+            string Rol=string.Empty;
+            if (usuario.TipoUsuarioId == 25)
+                Rol = "Cliente";
+
+            else
+                Rol = "Empleado";
+
+
+
+
+
             // If the user does exist
             List<Claim> claims = new List<Claim>() {
                 new Claim(ClaimTypes.Name, usuario.Nombre),
                 new Claim(ClaimTypes.Email, usuario.Correo),
+                new Claim("LimiteCredito", usuario.LimiteCredito.ToString("C")), 
+                new Claim("Rol", Rol) 
             };
+
+
 
             ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme); // Register structure
             AuthenticationProperties properties = new AuthenticationProperties()
@@ -290,6 +343,8 @@ namespace CafeXperienceApp.Controllers
                     properties
                 );
 
+
+
             return RedirectToAction("Index", "Dashboard");
 
 
@@ -298,7 +353,7 @@ namespace CafeXperienceApp.Controllers
 
         public async Task<IActionResult> Singout()
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);  // Close Session
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme); 
 
             return RedirectToAction("Login", "Usuarios");
         }

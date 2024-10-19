@@ -153,27 +153,42 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading">Resumen</div>
-                        <a class="nav-link" href="@Url.Action("Index","Home")">
-                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>Dashboard
-                        </a>
-                        <div class="sb-sidenav-menu-heading">Gestion</div>
+                        @if (ViewData["Rol"] != null && (string?)ViewData["Rol"] == "Empleado")
+                        {
+                            <div class="sb-sidenav-menu-heading">Resumen</div>
+                            <a class="nav-link" href="@Url.Action("Index", "Home")">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>Dashboard
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Gestion</div>
 
-                        <a class="nav-link" href="@Url.Action("Index","Usuarios")">
-                            <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>Usuarios
-                        </a>
-                        <a class="nav-link" href="@Url.Action("Index","TipoUsuarios")">
-                            <div class="sb-nav-link-icon"><i class="fa fa-user-tag"></i></div>Tipo de Usuarios
-                        </a>
-                        <a class="nav-link" href="@Url.Action("Index","Campus")">
-                            <div class="sb-nav-link-icon"><i class="fa fa-university"></i></div>Campus
-                        </a>
-                        <a class="nav-link" href="@Url.Action("Index","Cafeteria")">
-                            <div class="sb-nav-link-icon"><i class="fa fa-coffee"></i></div>Cafeteria
-                        </a>
-                        <a class="nav-link" href="@Url.Action("Index","Marca")">
-                            <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>Marcas
-                        </a>
+                            <a class="nav-link" href="@Url.Action("Index", "Usuarios")">
+                                <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>Usuarios
+                            </a>
+                            <a class="nav-link" href="@Url.Action("Index", "TipoUsuarios")">
+                                <div class="sb-nav-link-icon"><i class="fa fa-user-tag"></i></div>Tipo de Usuarios
+                            </a>
+                            <a class="nav-link" href="@Url.Action("Index", "Campus")">
+                                <div class="sb-nav-link-icon"><i class="fa fa-university"></i></div>Campus
+                            </a>
+                            <a class="nav-link" href="@Url.Action("Index", "Cafeteria")">
+                                <div class="sb-nav-link-icon"><i class="fa fa-coffee"></i></div>Cafeteria
+                            </a>
+                            <a class="nav-link" href="@Url.Action("Index", "Marca")">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>Marcas
+                            </a>
+                        }
+                        else
+                        {
+                            <div class="sb-sidenav-menu-heading">Resumen</div>
+
+                            <a class="nav-link" href='@Url.Action("Index", "ArticuloCompras")'>
+                                <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>Compras de Artículos
+                            </a>
+
+
+                        }
+
+                       
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">

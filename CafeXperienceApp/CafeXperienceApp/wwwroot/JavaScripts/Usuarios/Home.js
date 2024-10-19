@@ -12,6 +12,11 @@ $(document).ready(function () {
             },
             data: function (d) {
                 // Agrega parámetros personalizados si es necesario
+                d.nombre = $('#searchNombre').val();
+                d.cedula = $('#searchCedula').val();
+                d.fechaRegistro = $('#searchFechaRegistro').val();
+                d.estado = $('#searchEstado').val();
+                d.limiteCredito = $('#searchLimiteCredito').val();
             },
             beforeSend: function () {
                 // Mostrar el spinner antes de cargar los datos
@@ -165,12 +170,17 @@ $(document).ready(function () {
             data: formData, // Enviamos los datos serializados
             success: function (data) {
                 if (data.resultado) {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Guardado!',
-                        text: 'Cambios se guardaron exitosamente.',
-                        confirmButtonText: 'Aceptar'
-                    });
+                    if (data.resultado) {
+                        table.ajax.reload();
+                        $('#FormModal').modal('hide');
+                        Swal.fire('Guardado!', 'Cambios se guardaron exitosamente.', 'success');
+                        $('#FormModal').on('hidden.bs.modal', function () {
+                            $(this).find('form')[0].reset(); // Restablece el formulario
+                        });
+                    } else {
+                        Swal.fire('Error!', 'No se pudo guardar los cambios.', 'error');
+                    }
+
                 } else {
                     Swal.fire({
                         icon: 'error',
@@ -308,6 +318,8 @@ $(document).ready(function () {
         abrirModal(rowData); // Llama a la función para abrir el modal con los datos
     });
 
+   
+
     // Función para eliminar usuario
     function eliminarUsuario(idUsuario) {
         Swal.fire({
@@ -345,4 +357,8 @@ $(document).ready(function () {
         var dataObj = JSON.parse(json);
         eliminarUsuario(dataObj.idUsuario); // Usa la función creada para eliminar
     });
+
+   
 });
+
+

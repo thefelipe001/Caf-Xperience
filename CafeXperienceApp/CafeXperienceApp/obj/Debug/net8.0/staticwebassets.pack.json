@@ -1409,6 +1409,10 @@
       "PackagePath": "staticwebassets\\Design\\images\\bg-pattern-boxed.png"
     },
     {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\descarga (1).jpg",
+      "PackagePath": "staticwebassets\\Design\\images\\descarga (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\descarga.jpg",
       "PackagePath": "staticwebassets\\Design\\images\\descarga.jpg"
     },
@@ -1479,6 +1483,10 @@
     {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\quote-37x29.png",
       "PackagePath": "staticwebassets\\Design\\images\\quote-37x29.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\sandwich-saludable-para-lunch.jpeg",
+      "PackagePath": "staticwebassets\\Design\\images\\sandwich-saludable-para-lunch.jpeg"
     },
     {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-home-01-455x685.png",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eGw0AYiBtfdKq65cpi7IuVm7jiKX8kxBSC134cNGznE=",
+  "Hash": "3he3dQYQO8Yu588FMl+XceSQoUGUBQznLYb2183TqGQ=",
   "Source": "CafeXperienceApp",
   "BasePath": "_content/CafeXperienceApp",
   "Mode": "Default",
@@ -5850,6 +5850,25 @@
       "OriginalItemSpec": "wwwroot\\Design\\images\\Cocinero.png"
     },
     {
+      "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\descarga (1).jpg",
+      "SourceId": "CafeXperienceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\",
+      "BasePath": "_content/CafeXperienceApp",
+      "RelativePath": "Design/images/descarga (1).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\images\\descarga (1).jpg"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\descarga.jpg",
       "SourceId": "CafeXperienceApp",
       "SourceType": "Discovered",
@@ -6228,6 +6247,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Design\\images\\quote-37x29.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\sandwich-saludable-para-lunch.jpeg",
+      "SourceId": "CafeXperienceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\",
+      "BasePath": "_content/CafeXperienceApp",
+      "RelativePath": "Design/images/sandwich-saludable-para-lunch.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Design\\images\\sandwich-saludable-para-lunch.jpeg"
     },
     {
       "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\images\\shutter-home-01-455x685.png",
