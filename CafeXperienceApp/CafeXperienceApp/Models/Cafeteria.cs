@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace CafeXperienceApp.Models;
 
 public partial class Cafeteria
 {
-    [Key]
     public int IdCafeteria { get; set; }
 
     public string Descripcion { get; set; } = null!;
@@ -17,7 +15,7 @@ public partial class Cafeteria
 
     public int IdEncargado { get; set; }
 
-    public virtual Campus? IdCampusNavigation { get; set; } = null!;
+    public virtual Campus IdCampusNavigation { get; set; } = null!;
 
-    public virtual Usuario? IdEncargadoNavigation { get; set; } = null!;
+    public virtual Usuario IdEncargadoNavigation { get; set; } = null!;
 }

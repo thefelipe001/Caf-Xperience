@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace CafeXperienceApp.Models;
 
 public partial class Usuario
 {
-    [Key]
     public int IdUsuario { get; set; }
 
     public string Nombre { get; set; } = null!;

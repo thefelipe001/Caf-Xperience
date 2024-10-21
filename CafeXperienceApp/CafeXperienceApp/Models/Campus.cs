@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace CafeXperienceApp.Models;
 
 public partial class Campus
 {
-    [Key]
     public int IdCampus { get; set; }
 
     public string Descripcion { get; set; } = null!;
