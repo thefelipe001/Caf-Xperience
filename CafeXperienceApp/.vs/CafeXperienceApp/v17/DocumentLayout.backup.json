@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\wwwroot\\javascripts\\articulos\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\wwwroot\\javascripts\\cafeteria\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\wwwroot\\javascripts\\cafeteria\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\views\\articulo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\articulo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\models\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\models\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\views\\cafeteria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\cafeteria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\wwwroot\\javascripts\\cafeteria\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\wwwroot\\javascripts\\cafeteria\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\alina\\desktop\\proyectos - escritorios\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\views\\marca\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Articulo.cs",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Articulo.cs",
-              "RelativeToolTip": "CafeXperienceApp\\Models\\Articulo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T22:31:58.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Proveedore.cs",
               "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Proveedore.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Proveedore.cs",
@@ -111,8 +98,7 @@
               "RelativeToolTip": "CafeXperienceApp\\Models\\Proveedore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T22:47:25.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T22:47:25.314Z"
             },
             {
               "$type": "Document",
@@ -129,13 +115,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ArticuloController.cs",
               "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\ArticuloController.cs",
               "ToolTip": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloController.cs",
               "RelativeToolTip": "CafeXperienceApp\\Controllers\\ArticuloController.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAIAxwJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAUwFQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T04:39:35.3Z",
               "EditorCaption": ""
@@ -154,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Cafeteria\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Cafeteria\\Home.js",
               "ToolTip": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Cafeteria\\Home.js",
               "RelativeToolTip": "CafeXperienceApp\\wwwroot\\JavaScripts\\Cafeteria\\Home.js",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAzwGcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAswGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-19T04:36:58.026Z",
               "EditorCaption": ""
@@ -175,12 +161,11 @@
               "RelativeToolTip": "CafeXperienceApp\\Views\\Marca\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAuwGUAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T04:32:09.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T04:32:09.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Cafeteria\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Cafeteria\\Index.cshtml",
@@ -188,18 +173,17 @@
               "RelativeToolTip": "CafeXperienceApp\\Views\\Cafeteria\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T04:30:12.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T04:30:12.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Articulo\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Articulo\\Index.cshtml",
               "ToolTip": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Articulo\\Index.cshtml",
               "RelativeToolTip": "CafeXperienceApp\\Views\\Articulo\\Index.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwDoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwB8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-19T04:23:20.193Z",
               "EditorCaption": ""
@@ -212,10 +196,22 @@
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Articulos\\Home.js",
               "ToolTip": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Articulos\\Home.js",
               "RelativeToolTip": "CafeXperienceApp\\wwwroot\\JavaScripts\\Articulos\\Home.js",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwC4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-19T04:20:52.353Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Articulo.cs",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Alina\\Desktop\\Proyectos - Escritorios\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Articulo.cs",
+              "RelativeToolTip": "CafeXperienceApp\\Models\\Articulo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T22:31:58.23Z"
             }
           ]
         }

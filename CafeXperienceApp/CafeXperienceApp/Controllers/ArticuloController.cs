@@ -106,7 +106,7 @@ namespace CafeXperienceApp.Controllers
                     }
 
                     // Guardar la ruta de la imagen en la base de datos
-                    articulo.RutaImagen = $"~/design/images/{fileName}";
+                    articulo.RutaImagen = $"/design/images/{fileName}";
                 }
                 // Asignar el estado correctamente
                 articulo.Estado = articulo.Estado == "1" ? "A" : "I";

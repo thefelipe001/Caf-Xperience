@@ -44,7 +44,7 @@ $(document).ready(function () {
             {
                 "name": "Imagen", "data": "rutaImagen", "targets": 4,
                 "render": function (data) {
-                    return data;
+                    return `<img src="${data}" alt="estado" width="200px" />`;
                 }
             },
             {
@@ -259,7 +259,7 @@ $(document).ready(function () {
             if (result.isConfirmed) {
                 try {
                     let response = await $.ajax({
-                        url: "/Marca/Eliminar",
+                        url: "/Articulo/Eliminar",
                         type: "POST",
                         data: JSON.stringify(dataObj),
                         contentType: "application/json; charset=utf-8"
