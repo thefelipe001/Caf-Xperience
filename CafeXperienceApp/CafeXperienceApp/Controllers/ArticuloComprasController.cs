@@ -34,7 +34,7 @@ namespace CafeXperienceApp.Controllers
             ViewData["userName"] = userName;
             ViewData["saldo"] = User.Claims.FirstOrDefault(c => c.Type == "LimiteCredito")?.Value;
             ViewData["Rol"] = User.Claims.FirstOrDefault(c => c.Type == "Rol")?.Value;
-            var articulosDisponibles = _context.Articulos.Where(a => a.Estado == 'A' && a.Existencia > 0).ToList();  // Filtrar solo los artículos disponibles y activos
+            var articulosDisponibles = _context.Articulos.Where(a => a.Estado == "A" && a.Existencia > 0).ToList();  // Filtrar solo los artículos disponibles y activos
             return View(articulosDisponibles);  // Pasar la lista de artículos a la vista
         }
 
@@ -42,9 +42,9 @@ namespace CafeXperienceApp.Controllers
         public IActionResult AñadirAlCarrito(int id)
         {
             // Buscar el artículo por su ID
-            var articulo = _context.Articulos.FirstOrDefault(a => a.idArticulo == id);
+            var articulo = _context.Articulos.FirstOrDefault(a => a.IdArticulo == id);
 
-            if (articulo != null && articulo.Existencia > 0 && articulo.Estado == 'A')
+            if (articulo != null && articulo.Existencia > 0 && articulo.Estado == "A")
             {
                 // Añadir el artículo al carrito
                 Carrito.Add(articulo);
@@ -74,7 +74,7 @@ namespace CafeXperienceApp.Controllers
                 foreach (var articulo in Carrito)
                 {
                     // Restar la cantidad vendida de la existencia
-                    var articuloEnDB = _context.Articulos.FirstOrDefault(a => a.idArticulo == articulo.idArticulo);
+                    var articuloEnDB = _context.Articulos.FirstOrDefault(a => a.IdArticulo == articulo.IdArticulo);
                     if (articuloEnDB != null && articuloEnDB.Existencia >= 1)
                     {
                         articuloEnDB.Existencia -= 1;  // Aquí asumo que cada vez que se añade un artículo al carrito, se compra una unidad
