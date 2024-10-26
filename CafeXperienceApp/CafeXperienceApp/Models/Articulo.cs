@@ -11,11 +11,11 @@ public partial class Articulo
 
     public int IdMarca { get; set; }
 
-    public decimal Costo { get; set; }
+        public decimal Costo { get; set; }
 
     public int IdProveedor { get; set; }
 
-    public int Existencia { get; set; }
+        public int Existencia { get; set; }
 
     public string Estado { get; set; } = null!;
 

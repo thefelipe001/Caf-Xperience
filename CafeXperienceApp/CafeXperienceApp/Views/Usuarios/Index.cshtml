@@ -25,6 +25,31 @@
 
             </div>
         </div>
+    <div class="card-body">
+        <div class="row mb-4">
+            <div class="col-md-2">
+                <input type="text" class="form-control" id="searchNombre" placeholder="Nombre" />
+            </div>
+            <div class="col-md-2">
+                <input type="text" class="form-control" id="searchCedula" placeholder="Cédula" />
+            </div>
+            <div class="col-md-2">
+                <input type="date" class="form-control" id="searchFechaRegistro" />
+            </div>
+            <div class="col-md-2">
+                <select class="form-select" id="searchEstado">
+                    <option value="">Seleccionar Estado</option>
+                    <option value="A">Activo</option>
+                    <option value="I">Inactivo</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <input type="number" class="form-control" id="searchLimiteCredito" placeholder="Límite de Crédito" />
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success" onclick="buscarUsuarios()">Buscar</button>
+            </div>
+        </div>
 
         <!-- Spinner de carga dentro de la tabla -->
         <div id="loading-spinner" class="d-none table-loading-spinner text-center">
@@ -57,6 +82,7 @@
         </table>
     </div>
 </div>
+
 
 <!-- Modal -->
 <div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -154,3 +180,11 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    // Función para redibujar la tabla con los nuevos filtros
+    function buscarUsuarios() {
+        $('#tabla').DataTable().draw();  // Redibuja la tabla aplicando los filtros actuales
+    }
+</script>

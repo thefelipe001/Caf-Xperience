@@ -8,10 +8,8 @@ namespace CafeXperienceApp.Controllers
     [Authorize]
     public class DashboardController : Controller
     {
-        [HttpGet]
         public IActionResult Index()
         {
-
             ClaimsPrincipal claimUser = HttpContext.User;
             string userName = "Usuario no autenticado";
 
@@ -24,9 +22,13 @@ namespace CafeXperienceApp.Controllers
             }
 
             ViewData["userName"] = userName;
+            ViewData["saldo"] = User.Claims.FirstOrDefault(c => c.Type == "LimiteCredito")?.Value;
+            ViewData["Rol"] = User.Claims.FirstOrDefault(c => c.Type == "Rol")?.Value; 
 
             return View();
-
         }
+
+
+
     }
 }

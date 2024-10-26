@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Articulo>  
+@{
+    ViewData["Title"] = "Artículos Disponibles";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+}
+
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold">Artículos Disponibles para la Venta</h1>
+            <p class="lead text-muted">Explora nuestros productos y selecciona los artículos que deseas adquirir.</p>
+        </div>
+
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <!-- Recorre el modelo que contiene la lista de artículos -->
+            @foreach (var articulo in Model)
+            {
+                <div class="col-md-4 col-sm-6 mb-5">
+                    <div class="card h-100 shadow-lg border-0">
+                        <!-- Imagen del artículo -->
+                        <img class="card-img-top" src="@articulo.RutaImagen" alt="Imagen de @articulo.Descripcion" style="height: 200px; object-fit: cover;" />
+
+                        <!-- Cuerpo de la tarjeta -->
+                        <div class="card-body p-4 text-center">
+                            <!-- Descripción del artículo -->
+                            <h5 class="fw-bold mb-3">@articulo.Descripcion</h5>
+
+                            <!-- Precio del artículo -->
+                            <div class="fs-5 mb-2">
+                                <span class="text-success">Precio: S/. @articulo.Costo.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("es-ES"))</span>
+                            </div>
+
+                            <!-- Existencia del artículo -->
+                            <div class="text-muted mb-2">
+                                Existencia: <span class="badge bg-primary">@articulo.Existencia</span>
+                            </div>
+                        </div>
+
+                        <!-- Pie de la tarjeta -->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center">
+                                <!-- Botón para añadir el artículo al carrito -->
+                                <a href="@Url.Action("AñadirAlCarrito", "Ventas", new { id = articulo.idArticulo })" class="btn btn-primary w-100">
+                                    <i class="fas fa-shopping-cart"></i> Añadir al Carrito
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
