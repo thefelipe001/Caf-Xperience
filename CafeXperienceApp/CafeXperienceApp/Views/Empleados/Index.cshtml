@@ -8,7 +8,7 @@
 
 <ol class="breadcrumb mb-4 mt-4">
     <li class="breadcrumb-item"><a href="index.html" style="color: #28a745;">Gestion</a></li>
-    <li class="breadcrumb-item active">Listado de Empleados</li>
+    <li class="breadcrumb-item active">Empleados</li>
 </ol>
 
 <div class="card mb-4">
@@ -23,31 +23,6 @@
                 </button>
 
 
-            </div>
-        </div>
-    <div class="card-body">
-        <div class="row mb-4">
-            <div class="col-md-2">
-                <input type="text" class="form-control" id="searchNombre" placeholder="Nombre" />
-            </div>
-            <div class="col-md-2">
-                <input type="text" class="form-control" id="searchCedula" placeholder="Cédula" />
-            </div>
-            <div class="col-md-2">
-                    <input type="date" class="form-control" id="searchFechaIngreso" />
-            </div>
-            <div class="col-md-2">
-                <select class="form-select" id="searchEstado">
-                    <option value="">Seleccionar Estado</option>
-                    <option value="A">Activo</option>
-                    <option value="I">Inactivo</option>
-                </select>
-            </div>
-            <div class="col-md-2">
-                    <input type="number" class="form-control" id="searchPorcientoComision" placeholder="Porciento por Comisión" />
-            </div>
-            <div class="col-md-2">
-                <button class="btn btn-success" onclick="buscarUsuarios()">Buscar</button>
             </div>
         </div>
 
@@ -68,10 +43,15 @@
                     <th>ID</th>
                     <th>Nombre</th>
                     <th>Cedula</th>
-                    <th>PorcientoComision</th>
-                    <th>FechaIngreso</th>
+                    <th>Tanda Laboral</th>
+                    <th>
+                        Porciento Comision
+                    </th>
+                    <th>
+                        Fecha Ingreso
+                    </th>
                     <th>Estado</th>
-                    <th>Porciento</th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -81,7 +61,6 @@
     </div>
 </div>
 
-
 <!-- Modal -->
 <div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -90,7 +69,7 @@
             <!-- Sombra y bordes redondeados -->
             <div class="modal-header bg-success text-white rounded-top">
                 <!-- Fondo verde y borde redondeado superior -->
-                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión Empleados</h5> <!-- Título en negrita -->
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Gestión Empleado</h5> <!-- Título en negrita -->
                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button> <!-- Botón de cierre -->
             </div>
             <div class="modal-body px-4 py-3">
@@ -117,16 +96,26 @@
                     <div class="row mb-4">
                         <div class="col-sm-12">
                             <div class="form-floating">
-                                <input type="datetime-local" class="form-control required rounded-3" id="fechaRegistro" name="fechaRegistro" autocomplete="off" placeholder="Fecha Ingreso">
-                                <label for="fechaIngreso" class="text-muted">Fecha Inngreso</label>
+                                <input type="text" class="form-control required rounded-3" id="TandaLabor" name="TandaLabor" autocomplete="off" placeholder="Horario de Trabajo">
+                                <label for="Horario de Trabajo" class="text-muted">Horario de Trabajo</label>
                             </div>
                         </div>
                     </div>
+
                     <div class="row mb-4">
                         <div class="col-sm-12">
                             <div class="form-floating">
-                                <input type="number" class="form-control required rounded-3" id="limiteCredito" name="limiteCredito" autocomplete="off" placeholder="Porciento por Comisión">
-                                <label for="porcientoComision" class="text-muted">Porciento por Comisión</label>
+                                <input type="number" class="form-control required rounded-3" id="PorcientoComision" name="PorcientoComision" autocomplete="off" placeholder="Porciento Comision">
+                                <label for="Porciento Comision" class="text-muted">Porciento Comision</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="datetime-local" class="form-control required rounded-3" id="fechaRegistro" name="fechaRegistro" autocomplete="off" placeholder="Fecha Registro">
+                                <label for="fechaRegistro" class="text-muted">Fecha Registro</label>
                             </div>
                         </div>
                     </div>
@@ -142,7 +131,6 @@
                             </div>
                         </div>
                     </div>
-                    <input id="IdUsuario" name="IdUsuario" type="hidden" />
                 </form>
             </div>
             <div class="modal-footer d-flex justify-content-between">
@@ -155,9 +143,3 @@
 </div>
 
 
-<script>
-    // Función para redibujar la tabla con los nuevos filtros
-    function buscarEmpleados() {
-        $('#tabla').DataTable().draw();  // Redibuja la tabla aplicando los filtros actuales
-    }
-</script>

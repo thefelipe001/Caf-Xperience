@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q4uSkuacYgBBjFcDQyewN09JF02FkAwBBxZIVGgohvU=",
+  "Hash": "lO8NTfsOmcBxJGVsi4YcSSqt5bjJjGWkcn0ObgXemis=",
   "Source": "CafeXperienceApp",
   "BasePath": "_content/CafeXperienceApp",
   "Mode": "Default",
@@ -8774,6 +8774,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\JavaScripts\\Articulos\\Home.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Empleados\\Home.js",
+      "SourceId": "CafeXperienceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\",
+      "BasePath": "_content/CafeXperienceApp",
+      "RelativePath": "JavaScripts/Empleados/Home.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JavaScripts\\Empleados\\Home.js"
     },
     {
       "Identity": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js",

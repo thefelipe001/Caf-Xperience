@@ -1585,6 +1585,10 @@
       "PackagePath": "staticwebassets\\JavaScripts\\Articulos\\Home.min.js.map"
     },
     {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Empleados\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Empleados\\Home.js"
+    },
+    {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js",
       "PackagePath": "staticwebassets\\JavaScripts\\Marca\\Home.js"
     },
