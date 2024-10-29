@@ -15,6 +15,10 @@ $(document).ready(function () {
             },
             complete: function () {
                 $('#loading-spinner').addClass('d-none'); // Ocultar el spinner cuando los datos estén listos
+            },
+            error: function (xhr, status, error) {
+                console.error('Error al cargar los datos:', error);
+                Swal.fire('Error', 'No se pudieron cargar los datos.', 'error');
             }
         },
         "responsive": true,
@@ -22,17 +26,23 @@ $(document).ready(function () {
             {
                 "targets": -1,
                 "data": null,
-                "render": function (data, type, row, meta) {
+                "render": function (data, type, row) {
                     return $("<div>").addClass("d-grid gap-2 d-md-flex justify-content-md-start")
                         .append(
                             $("<button>").addClass("btn btn-primary btn-editar btn-sm me-md-2")
+                                .attr({
+                                    "data-informacion": JSON.stringify(row),
+                                    "aria-label": "Editar"
+                                })
                                 .append($("<i>").addClass("fas fa-pen"))
-                                .attr({ "data-informacion": JSON.stringify(row) })
                         )
                         .append(
                             $("<button>").addClass("btn btn-danger btn-eliminar btn-sm")
+                                .attr({
+                                    "data-informacion": JSON.stringify(row),
+                                    "aria-label": "Eliminar"
+                                })
                                 .append($("<i>").addClass("fas fa-trash"))
-                                .attr({ "data-informacion": JSON.stringify(row) })
                         )[0].outerHTML;
                 },
                 "sortable": false
@@ -44,13 +54,18 @@ $(document).ready(function () {
             {
                 "name": "Imagen", "data": "rutaImagen", "targets": 4,
                 "render": function (data) {
-                    return `<img src="${data}" alt="estado" width="200px" />`;
+                    if (data) {
+                        return `<img src="${data}" alt="Imagen del producto" width="200px" onerror="this.onerror=null;this.src='/img/placeholder.png';" />`;
+                    }
+                    return '<span class="text-muted">Sin imagen</span>';
                 }
             },
             {
                 "name": "Estado", "data": "estado", "targets": 5,
                 "render": function (data) {
-                    return data === "A" ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">No Activo</span>';
+                    return data === "A"
+                        ? '<span class="badge bg-success">Activo</span>'
+                        : '<span class="badge bg-danger">No Activo</span>';
                 }
             }
         ],
@@ -82,6 +97,32 @@ $(document).ready(function () {
         "pagingType": "full_numbers"
     });
 
+    // Asignar eventos a los botones después de la inicialización de la tabla
+    $('#tabla tbody').on('click', '.btn-editar', function () {
+        let informacion = JSON.parse($(this).attr('data-informacion'));
+        console.log('Editar:', informacion);
+        // Lógica para editar
+    });
+
+    $('#tabla tbody').on('click', '.btn-eliminar', function () {
+        let informacion = JSON.parse($(this).attr('data-informacion'));
+        Swal.fire({
+            title: '¿Estás seguro?',
+            text: "Esta acción no se puede revertir.",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sí, eliminar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                console.log('Eliminar:', informacion);
+                Swal.fire('Eliminado!', 'El registro ha sido eliminado.', 'success');
+                // Lógica para eliminar
+            }
+        });
+    });
+
     // Abrir el Formulario (crear o editar)
     window.abrirModal = function (json) {
         $("#cboEstado").html(`
@@ -90,8 +131,13 @@ $(document).ready(function () {
             <option value="0">No Activo</option>
         `);
 
-        $("#IdMarca").val(json ? json.idMarca : 0);
-        $("#txtdescripcion").val(json ? json.descripcion : "");
+
+
+        $("#txtdescripcion").val(json ? json.descripcion : 0);
+        $("#IdArticulo").val(json ? json.idArticulo : 0);
+        $("#txtcosto").val(json ? json.costo : 0);
+        $("#txtexistencia").val(json ? json.existencia : 0);
+
         $("#cboEstado").val(json ? (json.estado === "A" ? 1 : 0) : "");
 
         $('#FormModal').modal('show');
@@ -138,7 +184,7 @@ $(document).ready(function () {
             return false;
         }
 
-        if ($("#RutaImagen").get(0).files.length === 0) {
+        if ($("#imgproducto").get(0).files.length === 0) {
             Swal.fire({
                 icon: 'error',
                 title: 'Error!',
@@ -150,47 +196,64 @@ $(document).ready(function () {
 
         return true;
     }
-
     // Guardar datos del formulario (incluyendo la imagen)
     window.Guardar = async function () {
         if (!validarFormulario()) return;
 
         let formData = new FormData();
-        formData.append('IdArticulo', $("#IdArticulo").val());
-        formData.append('Descripcion', $("#txtdescripcion").val());
-        formData.append('IdMarca', $("#idMarca").val());
-        formData.append('IdProveedor', $("#idProveedor").val());
-        formData.append('Costo', $("#txtcosto").val());
-        formData.append('Existencia', $("#txtexistencia").val());
-        formData.append('Estado', $("#cboEstado").val());
-        formData.append('RutaImagen', $("#RutaImagen").val());
+        let fields = [
+            { key: 'IdArticulo', value: $("#IdArticulo").val() },
+            { key: 'Descripcion', value: $("#txtdescripcion").val() },
+            { key: 'IdMarca', value: $("#idMarca").val() },
+            { key: 'IdProveedor', value: $("#idProveedor").val() },
+            { key: 'Costo', value: $("#txtcosto").val() },
+            { key: 'Existencia', value: $("#txtexistencia").val() },
+            { key: 'Estado', value: $("#cboEstado").val() },
+            { key: 'RutaImagen', value: $("#RutaImagen").val() }
+        ];
 
-        // Agregar la imagen al formData
-        let file = $("#RutaImagen")[0].files[0];
-        formData.append('Imagen', file);
+        // Añadir todos los campos al FormData
+        fields.forEach(field => formData.append(field.key, field.value));
+
+        // Validar y agregar la imagen
+        let file = $("#imgproducto")[0].files[0];
+        if (file) {
+            formData.append('Imagen', file);
+        } else {
+            Swal.fire('Advertencia', 'Por favor, selecciona una imagen.', 'warning');
+            return;
+        }
 
         try {
+            // Deshabilitar el botón para evitar múltiples envíos
+            let btnGuardar = $('#btnGuardar');
+            btnGuardar.prop('disabled', true);
+
             let response = await $.ajax({
                 url: "/Articulo/Guardar",
                 type: "POST",
                 data: formData,
                 processData: false, // No procesar los datos
-                contentType: false // No establecer el tipo de contenido (es necesario para enviar archivos)
+                contentType: false // No establecer el tipo de contenido
             });
 
             if (response.resultado) {
-                table.ajax.reload();
-                $('#FormModal').modal('hide');
+                table.ajax.reload(); // Recargar tabla con los cambios
+                $('#FormModal').modal('hide'); // Cerrar modal
                 Swal.fire('Guardado!', 'Cambios se guardaron exitosamente.', 'success');
             } else {
                 Swal.fire('Error!', 'No se pudo guardar los cambios.', 'error');
             }
 
         } catch (error) {
-            console.log(error);
+            console.error('Error en la solicitud:', error);
             Swal.fire('Error!', 'Hubo un problema al enviar la solicitud.', 'error');
+        } finally {
+            // Rehabilitar el botón al finalizar el proceso
+            $('#btnGuardar').prop('disabled', false);
         }
-    }
+    };
+
 
     // Consultar el Campus
     $.ajax({
@@ -278,4 +341,6 @@ $(document).ready(function () {
             }
         });
     });
+
+
 });

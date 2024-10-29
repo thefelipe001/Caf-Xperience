@@ -15,12 +15,16 @@ $(document).ready(function () {
             },
             complete: function () {
                 $('#loading-spinner').addClass('d-none'); // Ocultar el spinner cuando los datos estén listos
+            },
+            error: function (xhr, status, error) {
+                console.error("Error al cargar los datos:", error);
+                alert("Ocurrió un error al cargar los datos. Inténtelo nuevamente.");
             }
         },
         "responsive": true,
         "columnDefs": [
             {
-                "targets": -1,
+                "targets": -1, // Última columna para los botones de acción
                 "data": null,
                 "render": function (data, type, row, meta) {
                     return $("<div>").addClass("d-grid gap-2 d-md-flex justify-content-md-start")
@@ -37,16 +41,18 @@ $(document).ready(function () {
                 },
                 "sortable": false
             },
-            { "name": "IdMarca", "data": "idMarca", "targets": 0, "visible": true },
+            { "name": "IdMarca", "data": "idMarca", "targets": 0 },
             { "name": "Descripcion", "data": "descripcion", "targets": 1 },
             {
                 "name": "Estado", "data": "estado", "targets": 2,
                 "render": function (data) {
-                    return data === "A" ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">No Activo</span>';
+                    return data === "A"
+                        ? '<span class="badge bg-success">Activo</span>'
+                        : '<span class="badge bg-danger">No Activo</span>';
                 }
             }
         ],
-        "order": [[0, "desc"]],
+        "order": [[0, "desc"]], // Orden descendente por la primera columna (IdMarca)
         "language": {
             "processing": "Procesando...",
             "lengthMenu": "Mostrar _MENU_ registros",
@@ -71,7 +77,20 @@ $(document).ready(function () {
         "dom": '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>' +
             '<"row"<"col-sm-12"tr>>' +
             '<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
-        "pagingType": "full_numbers"
+        "pagingType": "full_numbers" // Paginación con números completos
+    });
+
+    // Eventos personalizados para los botones de edición y eliminación
+    $('#tabla tbody').on('click', '.btn-editar', function () {
+        var data = JSON.parse($(this).attr('data-informacion'));
+        console.log("Editar:", data);
+        // Aquí puedes agregar la lógica para abrir un modal de edición o redirigir a una página de edición
+    });
+
+    $('#tabla tbody').on('click', '.btn-eliminar', function () {
+        var data = JSON.parse($(this).attr('data-informacion'));
+        console.log("Eliminar:", data);
+        // Aquí puedes agregar la lógica para confirmar la eliminación y hacer la solicitud al servidor
     });
 
     // Abrir el Formulario (crear o editar)

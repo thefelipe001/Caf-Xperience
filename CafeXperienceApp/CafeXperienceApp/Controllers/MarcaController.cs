@@ -2,9 +2,12 @@
 using CafeXperienceApp.Models;
 using CafeXperienceApp.Interfaces;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CafeXperienceApp.Controllers
 {
+    [Authorize]
+
     public class MarcaController : Controller
     {
         private readonly IBaseRepository<Marca> _repository;

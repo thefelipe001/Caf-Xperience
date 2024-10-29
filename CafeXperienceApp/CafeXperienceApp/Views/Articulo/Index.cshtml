@@ -76,7 +76,7 @@
 
                 <!-- Espaciado interno amplio -->
                 <form id="formNivel">
-                    <input id="IdArticulo" name="IdArticulo" type="hidden" />
+                    <input id="IdArticulo" name="IdArticulo" type="hidden"  />
                     <div class="row mb-4">
                         <div class="col-sm-12">
                             <div class="form-floating">
@@ -119,10 +119,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 mt-3">
-                        <input class="form-control form-control-lg" type="file" id="RutaImagen" onchange="readURL(this);" accept="image/*">
-                        <small class="text-muted d-block mt-2">Sube la imagen del producto</small>
+
+                    <!-- Imagen del producto -->
+                    <div class="row mb-4 text-center">
+                        <div class="col-sm-12">
+                            <div id="imgContainer"
+                                 class="border border-dark rounded-circle d-flex justify-content-center align-items-center"
+                                 style="height: 200px; width: 200px; overflow: hidden; background-color: #f0f0f0; cursor: pointer;"
+                                 onclick="document.getElementById('imgproducto').click();">
+
+                                <img id="img_producto" class="img-fluid" style="display: none; max-height: 100%;" alt="Imagen de Producto" />
+                                <span id="defaultText" class="text-muted">Imagen de Producto</span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mt-3">
+                            <input class="form-control form-control-lg"
+                                   type="file" id="imgproducto"
+                                   accept="image/webp, image/*"
+                                   onchange="readURL(this);" style="display: none;">
+
+                            <small class="text-muted d-block mt-2">Sube la imagen del producto</small>
+                            <p id="nombreArchivo" class="mt-2 text-muted">Sin archivo seleccionado</p>
+                        </div>
                     </div>
+
+
+
+
                     <div class="row mb-4">
                         <div class="col-sm-12">
                             <div class="form-floating">
@@ -144,3 +168,30 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            const file = input.files[0];
+
+            // Validar si el archivo es una imagen
+            if (!file.type.startsWith('image/')) {
+                alert('Por favor, selecciona un archivo de imagen válido.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                // Mostrar la imagen cargada
+                document.getElementById('img_producto').style.display = 'block';
+                document.getElementById('defaultText').style.display = 'none';
+                document.getElementById('img_producto').src = e.target.result;
+
+                // Mostrar el nombre del archivo seleccionado
+                document.getElementById('nombreArchivo').textContent = file.name;
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+</script>

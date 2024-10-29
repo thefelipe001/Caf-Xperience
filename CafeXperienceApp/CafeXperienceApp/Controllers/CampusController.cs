@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using CafeXperienceApp.Models;
 using CafeXperienceApp.Interfaces;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CafeXperienceApp.Controllers
 {
+    [Authorize]
+
     public class CampusController : Controller
     {
         private readonly IBaseRepository<Campus> _campusrepositorio;

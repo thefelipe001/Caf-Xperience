@@ -1,12 +1,14 @@
 ﻿using CafeXperienceApp.Interfaces;
 using CafeXperienceApp.Models;
 using CafeXperienceApp.Repositorio;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace CafeXperienceApp.Controllers
 {
- 
+    [Authorize]
+
     public class CafeteriaController : Controller
     {
         private readonly ApplicationDbContext _db;

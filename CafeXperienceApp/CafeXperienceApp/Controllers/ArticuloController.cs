@@ -1,9 +1,13 @@
 ﻿using CafeXperienceApp.Interfaces;
 using CafeXperienceApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace CafeXperienceApp.Controllers
 {
+    [Authorize]
+
     public class ArticuloController : Controller
     {
         private readonly IBaseRepository<Articulo> _articulorepositorio;
@@ -19,6 +23,21 @@ namespace CafeXperienceApp.Controllers
 
         public IActionResult Index()
         {
+            ClaimsPrincipal claimUser = HttpContext.User;
+            string userName = "Usuario no autenticado";
+
+            if (claimUser?.Identity?.IsAuthenticated == true)
+            {
+                userName = claimUser.Claims
+                    .Where(c => c.Type == ClaimTypes.Name)
+                    .Select(c => c.Value)
+                    .SingleOrDefault() ?? "Claim no disponible";
+            }
+
+            ViewData["userName"] = userName;
+            ViewData["saldo"] = User.Claims.FirstOrDefault(c => c.Type == "LimiteCredito")?.Value;
+            ViewData["Rol"] = User.Claims.FirstOrDefault(c => c.Type == "Rol")?.Value;
+
             return View();
         }
 

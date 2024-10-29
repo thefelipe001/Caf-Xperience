@@ -1,5 +1,4 @@
 ﻿using CafeXperienceApp.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -92,6 +91,43 @@ namespace CafeXperienceApp.Controllers
             // Redirigir a la página principal
             return RedirectToAction("Index");
         }
+
+
+        [HttpPost]
+        public IActionResult AñadirAlCarrito(int idArticulo, int unidades)
+        {
+            try
+            {
+                // Lógica para añadir al carrito (puedes almacenarlo en sesión o base de datos)
+                var carrito = HttpContext.Session.GetObjectFromJson<List<CarritoItem>>("Carrito") ?? new List<CarritoItem>();
+
+                var item = carrito.FirstOrDefault(i => i.IdArticulo == idArticulo);
+                if (item != null)
+                {
+                    item.Unidades += unidades;
+                }
+                else
+                {
+                    carrito.Add(new CarritoItem { IdArticulo = idArticulo, Unidades = unidades });
+                }
+
+                HttpContext.Session.SetObjectAsJson("Carrito", carrito);
+
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
+
+        // Clase auxiliar para manejar los items del carrito
+        public class CarritoItem
+        {
+            public int IdArticulo { get; set; }
+            public int Unidades { get; set; }
+        }
+
 
     }
 }

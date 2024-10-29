@@ -1,0 +1,81 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Añadir al Carrito";
+}
+
+<!-- Breadcrumb para navegación -->
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: #28a745;">Gestión</a></li>
+    <li class="breadcrumb-item"><a href="/Ventas" style="color: #28a745;">Ventas</a></li>
+    <li class="breadcrumb-item active">Añadir al Carrito</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-header bg-success text-white">
+        <i class="fas fa-cart-plus me-1"></i> Añadir Artículo al Carrito
+    </div>
+    <div class="card-body">
+        <form id="formCarrito" class="needs-validation" novalidate>
+            <input type="hidden" id="idArticulo" value="14" /> <!-- ID del artículo -->
+
+            <div class="row mb-4">
+                <!-- Mostrar el nombre del artículo -->
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="nombreArticulo" value="Café Expreso" readonly>
+                        <label for="nombreArticulo">Artículo</label>
+                    </div>
+                </div>
+
+                <!-- Unidades a Añadir -->
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="unidades" name="Unidades" min="1" required>
+                        <label for="unidades">Unidades</label>
+                        <div class="invalid-feedback">
+                            Ingrese una cantidad válida de unidades.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de Acción -->
+            <div class="d-flex justify-content-between">
+                <button type="button" class="btn btn-danger btn-lg" onclick="window.history.back();">Cancelar</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="añadirAlCarrito()">Añadir al Carrito</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Script para añadir el artículo al carrito -->
+<script>
+    function añadirAlCarrito() {
+        const idArticulo = document.getElementById('idArticulo').value;
+        const unidades = document.getElementById('unidades').value;
+
+        if (unidades < 1) {
+            alert('Por favor, ingrese una cantidad válida.');
+            return;
+        }
+
+        $.ajax({
+            url: `/ArticuloCompras/AñadirAlCarrito/${idArticulo}`,
+            type: 'POST',
+            data: {
+                idArticulo: idArticulo,
+                unidades: unidades
+            },
+            headers: {
+                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+            },
+            success: function () {
+                alert('Artículo añadido al carrito exitosamente.');
+                window.location.href = '/ArticuloCompras/Carrito'; // Redirige al carrito
+            },
+            error: function () {
+                alert('Hubo un problema al añadir el artículo al carrito.');
+            }
+        });
+    }
+</script>
