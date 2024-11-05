@@ -29,7 +29,10 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
     public virtual DbSet<Empleados> Empleados { get; set; }
-   
+
+    public DbSet<FacturacionDetalle> FacturacionDetalles { get; set; }
+
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -37,6 +40,28 @@ public partial class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+
+        modelBuilder.Entity<FacturacionDetalle>(entity =>
+        {
+            entity.HasNoKey(); // Indica que esta entidad no tiene clave primaria.
+            entity.ToView("vw_FacturacionDetalles"); // Configura la entidad para que use la vista "vw_FacturacionDetalles".
+
+            entity.Property(e => e.NumFactura).HasColumnName("NumFactura");
+            entity.Property(e => e.FechaVenta).HasColumnName("FechaVenta");
+            entity.Property(e => e.Monto).HasColumnName("Monto").HasColumnType("decimal(18, 2)");
+            entity.Property(e => e.Cantidad).HasColumnName("Cantidad");
+            entity.Property(e => e.Comentario).HasColumnName("Comentario").HasMaxLength(255).IsUnicode(false);
+            entity.Property(e => e.NombreUsuario).HasColumnName("NombreUsuario").HasMaxLength(50).IsUnicode(false);
+            entity.Property(e => e.DescripcionArticulo).HasColumnName("DescripcionArticulo").HasMaxLength(50).IsUnicode(false);
+            entity.Property(e => e.DescripcionCampus).HasColumnName("DescripcionCampus").HasMaxLength(50).IsUnicode(false);
+        });
+
+        // Configuraciones adicionales de otras entidades (como en el código proporcionado)
+
+        // Llamada al método parcial en caso de tener configuraciones adicionales
+        OnModelCreatingPartial(modelBuilder);
+
+
         modelBuilder.Entity<Articulo>(entity =>
         {
             entity.HasKey(e => e.IdArticulo).HasName("PK__Articulo__AABB7422DACB6373");

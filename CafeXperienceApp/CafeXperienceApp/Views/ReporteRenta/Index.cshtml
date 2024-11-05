@@ -1,0 +1,173 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Reporte";
+}
+
+
+
+<style>
+    .btn-report {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .btn-report i {
+            margin-right: 5px;
+            color: white;
+            font-size: 20px; 
+        }
+</style>
+
+
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: black;">Gestion</a></li>
+    <li class="breadcrumb-item active">Listado de Reporte</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-header" style="background-color: mediumseagreen; color: white;">
+        <i class="fas fa-table me-1"></i> Reporte
+    </div>
+    <div class="card-body">
+        <div class="row mb-4">
+        </div>
+        <div class="card-body">
+
+            <div class="row mb-4">
+            
+                <div class="col-md-2">
+                    <input type="date" class="form-control" id="searchFecha" />
+                </div>
+
+                <div class="col-md-2">
+                    <select class="form-select" id="searchCampus">
+                        <option value="">Seleccionar Campus</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <select class="form-select" id="searchProveedor">
+                        <option value="">Seleccionar Proveedor</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="searchMonto" placeholder="Monto" />
+                </div>
+
+                <div class="col-md-2">
+                    <button class="btn btn-success" onclick="buscarUsuarios()">Buscar</button>
+                </div>
+
+                <div class="col-md-2">
+                    <button title="Reporte PDF" type="button" class="btn-report">
+                        <i class="fas fa-file-alt"></i>
+                    </button>
+                </div>
+
+              
+
+               
+            </div>
+
+            <!-- Spinner de carga dentro de la tabla -->
+            <div id="loading-spinner" class="d-none table-loading-spinner text-center">
+                <div class="spinner-border text-success" style="width: 5rem; height: 5rem;" role="status">
+                    <span class="sr-only">Cargando...</span>
+                </div>
+                <p style="color: #28a745;">Cargando datos, por favor espera...</p>
+            </div>
+
+            <hr />
+        <!-- Tabla para mostrar las marcas -->
+        <table id="tabla" class="display responsive table table-bordered" style="width:100%">
+                <thead style="background-color: #343a40; color: white;">
+                <tr>
+                    <th>Campus</th>
+                    <th>Proveedor</th>
+                    <th>Artículo</th>
+                    <th>Fecha de Renta</th>
+                    <th>Cantidad</th>
+                    <th>Costo Unitario</th>
+                    <th>Método de Pago</th>
+                    <th>Observaciones</th>
+                    <th>Total</th>
+
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal para crear/editar marca -->
+<div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content shadow-lg rounded-4 border-0">
+            <div class="modal-header bg-success text-white rounded-top">
+                <h5 class="modal-title fw-bold">Gestión de Marcas</h5>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5 py-4">
+                <form id="formNivel" class="needs-validation" novalidate>
+                    <input id="IdMarca" name="IdMarca" type="hidden" />
+
+                    <!-- Imagen del producto -->
+                    <div class="row mb-4 text-center">
+                        <div class="col-sm-12">
+                            <div id="imgContainer" class="border border-dark rounded-circle d-flex justify-content-center align-items-center"
+                                 style="height: 200px; width: 200px; overflow: hidden; background-color: #f0f0f0;">
+                                <img id="img_producto" class="img-fluid" style="display: none;" alt="Imagen de Producto" />
+                                <span id="defaultText" class="text-muted">Imagen de Marca</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 mt-3">
+                            <input class="form-control form-control-lg" type="file" id="imgproducto"
+                                   onchange="readURL(this);" accept="image/*">
+                            <small class="text-muted">Sube la imagen del producto</small>
+                        </div>
+                    </div>
+
+                    <!-- Campo Descripción -->
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control required rounded-3" id="txtdescripcion"
+                                       name="Descripcion" autocomplete="off" placeholder="Descripción" required>
+                                <label for="txtdescripcion">Descripción</label>
+                                <div class="invalid-feedback">Por favor ingresa una descripción válida.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campo Estado -->
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="form-floating">
+                                <select id="cboEstado" class="form-select rounded-3" name="Estado" required>
+                                    <option value="1">Activo</option>
+                                    <option value="0">No Activo</option>
+                                </select>
+                                <label for="cboEstado">Estado</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer d-flex justify-content-between">
+                <button type="button" class="btn btn-danger btn-lg" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="Guardar()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
