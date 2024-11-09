@@ -31,6 +31,8 @@ public partial class ApplicationDbContext : DbContext
     public virtual DbSet<Empleados> Empleados { get; set; }
 
     public DbSet<FacturacionDetalle> FacturacionDetalles { get; set; }
+    public DbSet<FacturacionDetalleReporte> FacturacionDetallesReporte { get; set; }
+
 
 
 
@@ -60,6 +62,13 @@ public partial class ApplicationDbContext : DbContext
 
         // Llamada al método parcial en caso de tener configuraciones adicionales
         OnModelCreatingPartial(modelBuilder);
+
+
+        modelBuilder.Entity<FacturacionDetalleReporte>()
+            .HasNoKey() // Indica que esta entidad no tiene clave primaria.
+            .ToView("vw_FacturacionDetallesReporte"); // Mapea la clase a la vista.
+
+        base.OnModelCreating(modelBuilder);
 
 
         modelBuilder.Entity<Articulo>(entity =>

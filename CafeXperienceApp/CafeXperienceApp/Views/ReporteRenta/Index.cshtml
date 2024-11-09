@@ -26,6 +26,8 @@
 </style>
 
 
+<script src="~/javascripts/ReporteRenta/Home.js"></script>
+
 <ol class="breadcrumb mb-4 mt-4">
     <li class="breadcrumb-item"><a href="index.html" style="color: black;">Gestion</a></li>
     <li class="breadcrumb-item active">Listado de Reporte</li>
@@ -47,30 +49,37 @@
                 </div>
 
                 <div class="col-md-2">
-                    <select class="form-select" id="searchCampus">
-                        <option value="">Seleccionar Campus</option>
+                    <select class="form-select" id="searchCampus" name="searchCampus">
+                        <option value="">Seleccione un campus</option>
+
                     </select>
+                  
                 </div>
 
+
                 <div class="col-md-2">
-                    <select class="form-select" id="searchProveedor">
-                        <option value="">Seleccionar Proveedor</option>
+                    <select class="form-select" id="searchProveedor" name="searchProveedor">
+                        <option value="">Seleccione un Proveedor</option>
+
                     </select>
+
                 </div>
+
 
                 <div class="col-md-2">
                     <input type="number" class="form-control" id="searchMonto" placeholder="Monto" />
                 </div>
 
                 <div class="col-md-2">
-                    <button class="btn btn-success" onclick="buscarUsuarios()">Buscar</button>
+                    <button class="btn btn-success" onclick="buscarReporte()">Buscar</button>
                 </div>
 
                 <div class="col-md-2">
-                    <button title="Reporte PDF" type="button" class="btn-report">
+                    <button onclick="Reporte()" title="Reporte PDF" type="button" class="btn-report">
                         <i class="fas fa-file-alt"></i>
                     </button>
                 </div>
+
 
               
 
@@ -90,16 +99,15 @@
         <table id="tabla" class="display responsive table table-bordered" style="width:100%">
                 <thead style="background-color: #343a40; color: white;">
                 <tr>
-                    <th>Campus</th>
-                    <th>Proveedor</th>
-                    <th>Artículo</th>
-                    <th>Fecha de Renta</th>
+                    <th>Numero Factura</th>
+                    <th>Articulo</th>
+                    <th>Fecha Venta</th>
+                    <th>Monto</th>
                     <th>Cantidad</th>
-                    <th>Costo Unitario</th>
-                    <th>Método de Pago</th>
-                    <th>Observaciones</th>
-                    <th>Total</th>
-
+                    <th>Comentario</th>
+                    <th>Campus</th>
+                    <th>RNC</th>
+                    <th>Nombre Comercial</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -107,67 +115,44 @@
     </div>
 </div>
 
-<!-- Modal para crear/editar marca -->
-<div class="modal fade" id="FormModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content shadow-lg rounded-4 border-0">
-            <div class="modal-header bg-success text-white rounded-top">
-                <h5 class="modal-title fw-bold">Gestión de Marcas</h5>
-                <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body px-5 py-4">
-                <form id="formNivel" class="needs-validation" novalidate>
-                    <input id="IdMarca" name="IdMarca" type="hidden" />
-
-                    <!-- Imagen del producto -->
-                    <div class="row mb-4 text-center">
-                        <div class="col-sm-12">
-                            <div id="imgContainer" class="border border-dark rounded-circle d-flex justify-content-center align-items-center"
-                                 style="height: 200px; width: 200px; overflow: hidden; background-color: #f0f0f0;">
-                                <img id="img_producto" class="img-fluid" style="display: none;" alt="Imagen de Producto" />
-                                <span id="defaultText" class="text-muted">Imagen de Marca</span>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 mt-3">
-                            <input class="form-control form-control-lg" type="file" id="imgproducto"
-                                   onchange="readURL(this);" accept="image/*">
-                            <small class="text-muted">Sube la imagen del producto</small>
-                        </div>
-                    </div>
-
-                    <!-- Campo Descripción -->
-                    <div class="row mb-4">
-                        <div class="col-sm-12">
-                            <div class="form-floating">
-                                <input type="text" class="form-control required rounded-3" id="txtdescripcion"
-                                       name="Descripcion" autocomplete="off" placeholder="Descripción" required>
-                                <label for="txtdescripcion">Descripción</label>
-                                <div class="invalid-feedback">Por favor ingresa una descripción válida.</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Campo Estado -->
-                    <div class="row mb-4">
-                        <div class="col-sm-12">
-                            <div class="form-floating">
-                                <select id="cboEstado" class="form-select rounded-3" name="Estado" required>
-                                    <option value="1">Activo</option>
-                                    <option value="0">No Activo</option>
-                                </select>
-                                <label for="cboEstado">Estado</label>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div class="modal-footer d-flex justify-content-between">
-                <button type="button" class="btn btn-danger btn-lg" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary btn-lg" onclick="Guardar()">Guardar</button>
-            </div>
-        </div>
-    </div>
 </div>
 
-</div>
+<script>
+
+    // Función para redibujar la tabla con los nuevos filtros
+    function buscarReporte() {
+        $('#tabla').DataTable().draw();  // Redibuja la tabla aplicando los filtros actuales
+    }
+
+
+    function Reporte() {
+        const tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+        const token = tokenElement ? tokenElement.value : '';
+
+        fetch('/ReporteRenta/DescargarPDF', {
+            method: 'GET',
+            headers: {
+                'RequestVerificationToken': token
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error en la descarga');
+                }
+                return response.blob();
+            })
+            .then(blob => {
+                // Crear una URL para el archivo descargado
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = 'reporte_facturacion.pdf';  // Nombre del archivo a descargar
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);  // Liberar memoria
+            })
+            .catch(error => console.error('Error al descargar el PDF:', error));
+    }
+
+</script>

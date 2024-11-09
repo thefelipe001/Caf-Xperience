@@ -15,6 +15,10 @@
     <Content Remove="wwwroot\JavaScripts\Campus\Home.js.map" />
     <Content Remove="wwwroot\JavaScripts\Campus\Home.min.js" />
     <Content Remove="wwwroot\JavaScripts\Campus\Home.min.js.map" />
+    <Content Remove="wwwroot\JavaScripts\ReporteRenta\Home.js" />
+    <Content Remove="wwwroot\JavaScripts\ReporteRenta\Home.js.map" />
+    <Content Remove="wwwroot\JavaScripts\ReporteRenta\Home.min.js" />
+    <Content Remove="wwwroot\JavaScripts\ReporteRenta\Home.min.js.map" />
     <Content Remove="wwwroot\JavaScripts\Usuarios\Home.js" />
     <Content Remove="wwwroot\JavaScripts\Usuarios\Home.js.map" />
     <Content Remove="wwwroot\JavaScripts\Usuarios\Home.min.js" />
@@ -23,6 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="3.4.22" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.8" />
@@ -36,6 +41,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="8.0.5" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
     <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+    <PackageReference Include="QuestPDF" Version="2024.10.2" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
@@ -245,6 +251,10 @@
     <None Include="wwwroot\JavaScripts\Campus\Home.js.map" />
     <None Include="wwwroot\JavaScripts\Campus\Home.min.js" />
     <None Include="wwwroot\JavaScripts\Campus\Home.min.js.map" />
+    <None Include="wwwroot\JavaScripts\ReporteRenta\Home.js" />
+    <None Include="wwwroot\JavaScripts\ReporteRenta\Home.js.map" />
+    <None Include="wwwroot\JavaScripts\ReporteRenta\Home.min.js" />
+    <None Include="wwwroot\JavaScripts\ReporteRenta\Home.min.js.map" />
     <None Include="wwwroot\JavaScripts\Usuarios\Home.js" />
     <None Include="wwwroot\JavaScripts\Usuarios\Home.js.map" />
     <None Include="wwwroot\JavaScripts\Usuarios\Home.min.js" />
