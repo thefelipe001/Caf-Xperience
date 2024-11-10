@@ -1,0 +1,117 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
+    ViewData["Title"] = "Facturas";
+}
+
+
+
+<style>
+    .btn-report {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .btn-report i {
+            margin-right: 5px;
+            color: white;
+            font-size: 20px; 
+        }
+</style>
+
+
+<script src="~/javascripts/Facturas/Home.js"></script>
+
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="index.html" style="color: black;">Gestion</a></li>
+    <li class="breadcrumb-item active">Listado de Facturas</li>
+</ol>
+
+<div class="card mb-4">
+    <div class="card-header" style="background-color: mediumseagreen; color: white;">
+        <i class="fas fa-table me-1"></i> Facturas
+    </div>
+    <div class="card-body">
+        <div class="row mb-4">
+        </div>
+        <div class="card-body">
+
+            <div class="row mb-4">
+            
+                <div class="col-md-2">
+                    <input type="date" class="form-control" id="searchFecha" />
+                </div>
+
+                <div class="col-md-2">
+                    <select class="form-select" id="searchUsuario" name="searchUsuario">
+                        <option value="">Seleccione un Usuario</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <select class="form-select" id="searchCampus" name="searchCampus">
+                        <option value="">Seleccione un Campus</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <select class="form-select" id="searchProveedor" name="searchProveedor">
+                        <option value="">Seleccione un Proveedor</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <input type="number" class="form-control" id="searchMonto" placeholder="Monto" />
+                </div>
+
+                <div class="col-md-2">
+                    <button class="btn btn-success" onclick="buscarReporte()">Buscar</button>
+                </div>
+
+            </div>
+
+            <!-- Spinner de carga dentro de la tabla -->
+            <div id="loading-spinner" class="d-none table-loading-spinner text-center">
+                <div class="spinner-border text-success" style="width: 5rem; height: 5rem;" role="status">
+                    <span class="sr-only">Cargando...</span>
+                </div>
+                <p style="color: #28a745;">Cargando datos, por favor espera...</p>
+            </div>
+
+            <hr />
+        <!-- Tabla para mostrar las marcas -->
+        <table id="tabla" class="display responsive table table-bordered" style="width:100%">
+                <thead style="background-color: #343a40; color: white;">
+                <tr>
+                    <th>Numero Factura</th>
+                    <th>Articulo</th>
+                    <th>Fecha Venta</th>
+                    <th>Monto</th>
+                    <th>Cantidad</th>
+                    <th>Comentario</th>
+                    <th>Campus</th>
+                    <th>RNC</th>
+                    <th>Nombre Comercial</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+<script>
+
+    // Función para redibujar la tabla con los nuevos filtros
+    function buscarReporte() {
+        $('#tabla').DataTable().draw();  // Redibuja la tabla aplicando los filtros actuales
+    }
+
+</script>

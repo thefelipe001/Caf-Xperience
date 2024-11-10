@@ -251,6 +251,10 @@
     <None Include="wwwroot\JavaScripts\Campus\Home.js.map" />
     <None Include="wwwroot\JavaScripts\Campus\Home.min.js" />
     <None Include="wwwroot\JavaScripts\Campus\Home.min.js.map" />
+    <None Include="wwwroot\JavaScripts\Facturas\Home.js" />
+    <None Include="wwwroot\JavaScripts\Facturas\Home.js.map" />
+    <None Include="wwwroot\JavaScripts\Facturas\Home.min.js" />
+    <None Include="wwwroot\JavaScripts\Facturas\Home.min.js.map" />
     <None Include="wwwroot\JavaScripts\ReporteRenta\Home.js" />
     <None Include="wwwroot\JavaScripts\ReporteRenta\Home.js.map" />
     <None Include="wwwroot\JavaScripts\ReporteRenta\Home.min.js" />
@@ -461,6 +465,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <AdditionalFiles Include="Views\Facturas\Index.cshtml" />
     <AdditionalFiles Include="Views\Marca\Index.cshtml" />
   </ItemGroup>
 
