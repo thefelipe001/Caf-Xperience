@@ -115,7 +115,7 @@ namespace CafeXperienceApp.Controllers
                 draw = draw,
                 recordsFiltered = totalFilteredRecords,
                 recordsTotal = totalRecords,
-                data = data
+                data = data.Distinct()
             });
         }
 
@@ -131,7 +131,7 @@ namespace CafeXperienceApp.Controllers
                 return Json(new { error = data.ErrorMessage });
             }
 
-            return Json(new { data = data.Data });
+            return Json(new { data = data.Data.Distinct() });
         }
 
 
@@ -147,7 +147,7 @@ namespace CafeXperienceApp.Controllers
                 return Json(new { error = data.ErrorMessage });
             }
 
-            return Json(new { data = data.Data });
+            return Json(new { data = data.Data.Distinct() });
         }
 
 

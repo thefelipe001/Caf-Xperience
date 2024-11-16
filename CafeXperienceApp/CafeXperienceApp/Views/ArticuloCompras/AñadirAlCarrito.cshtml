@@ -48,34 +48,42 @@
     </div>
 </div>
 
-<!-- Script para añadir el artículo al carrito -->
+
 <script>
     function añadirAlCarrito() {
+        // Obtener los valores de los campos
         const idArticulo = document.getElementById('idArticulo').value;
+        const nombreArticulo = document.getElementById('nombreArticulo').value;
         const unidades = document.getElementById('unidades').value;
 
-        if (unidades < 1) {
-            alert('Por favor, ingrese una cantidad válida.');
+        // Validar que la cantidad sea válida
+        if (unidades <= 0) {
+            alert("Ingrese una cantidad válida de unidades.");
             return;
         }
 
-        $.ajax({
-            url: `/ArticuloCompras/AñadirAlCarrito/${idArticulo}`,
-            type: 'POST',
-            data: {
-                idArticulo: idArticulo,
-                unidades: unidades
-            },
+        // Crear el objeto de datos del artículo
+        const articulo = {
+            productId: idArticulo,
+            nombre: nombreArticulo,
+            cantidad: parseInt(unidades),
+            precio: 10.00 // Puedes agregar el precio del artículo aquí si es necesario
+        };
+
+        // Enviar datos al backend usando fetch (AJAX)
+        fetch('/api/carrito/agregar', {
+            method: 'POST',
             headers: {
-                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                'Content-Type': 'application/json'
             },
-            success: function () {
-                alert('Artículo añadido al carrito exitosamente.');
-                window.location.href = '/ArticuloCompras/Carrito'; // Redirige al carrito
-            },
-            error: function () {
-                alert('Hubo un problema al añadir el artículo al carrito.');
-            }
-        });
+            body: JSON.stringify(articulo)
+        })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.mensaje || 'Artículo añadido al carrito con éxito');
+                // Opcional: redireccionar o actualizar el carrito
+                window.location.href = "/Ventas/Carrito"; // Redirigir a la página del carrito
+            })
+            .catch(error => console.error('Error:', error));
     }
 </script>

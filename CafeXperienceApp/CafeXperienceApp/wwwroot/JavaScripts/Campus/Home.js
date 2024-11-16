@@ -201,8 +201,8 @@ $(document).ready(function () {
         var dataObj = JSON.parse(json); // Convierte el string JSON en un objeto JavaScript
 
         Swal.fire({
-            title: '¿Estás seguro?',
-            text: "¡No podrás revertir esto!",
+            title: '¿Estas seguro?',
+            text: "¡No podras revertir esto!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',

@@ -104,7 +104,7 @@ $(document).ready(function () {
                     if (!opcionesUnicas.has(value.idCampus)) {
                         opcionesUnicas.add(value.idCampus); // Añadir el idCampus al Set para evitar duplicados
                         $("<option>")
-                            .attr({ "value": value.idCampus })
+                            .attr({ "value": value.descripcion })
                             .text(value.descripcion)
                             .appendTo("#searchCampus");
                     }

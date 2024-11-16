@@ -2,7 +2,9 @@
 using CafeXperienceApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Security.Claims;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CafeXperienceApp.Controllers
 {
@@ -158,6 +160,30 @@ namespace CafeXperienceApp.Controllers
                 return Json(new { resultado = false, mensaje = ex.Message });
             }
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Get()
+        {
+            Articulo articulo = new Articulo();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync("https://localhost:7067/api/Articulos"))
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        string apiResponse = await response.Content.ReadAsStringAsync();
+                        articulo = JsonConvert.DeserializeObject<Articulo>(apiResponse);
+                    }
+
+                }
+            }
+            return Json(new { data= articulo });
+        }
+
+
+
+
 
         [HttpPost]
         public async Task<IActionResult> DataMarca()

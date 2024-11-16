@@ -1,4 +1,5 @@
 ﻿using CafeXperienceApp.Models;
+using CafeXperienceApp.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -7,10 +8,14 @@ namespace CafeXperienceApp.Controllers
     public class ArticuloComprasController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly CarritoService _carritoService;
 
-        public ArticuloComprasController(ApplicationDbContext context)
+
+        public ArticuloComprasController(ApplicationDbContext context, CarritoService carritoService)
         {
            _context = context;
+           _carritoService = carritoService;
+
         }
 
         // Carrito de compras simulado
@@ -37,97 +42,7 @@ namespace CafeXperienceApp.Controllers
             return View(articulosDisponibles);  // Pasar la lista de artículos a la vista
         }
 
-        // Acción para añadir un artículo al carrito
-        public IActionResult AñadirAlCarrito(int id)
-        {
-            // Buscar el artículo por su ID
-            var articulo = _context.Articulos.FirstOrDefault(a => a.IdArticulo == id);
-
-            if (articulo != null && articulo.Existencia > 0 && articulo.Estado == "A")
-            {
-                // Añadir el artículo al carrito
-                Carrito.Add(articulo);
-                TempData["Message"] = "Artículo añadido al carrito.";
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "Artículo no disponible o agotado.";
-            }
-
-            // Redirigir de vuelta a la lista de artículos
-            return RedirectToAction("Index");
-        }
-
-        // Acción para mostrar el carrito
-        public IActionResult VerCarrito()
-        {
-            return View(Carrito);  // Pasar la lista de artículos del carrito a la vista
-        }
-
-        // Acción para realizar la compra (simulación)
-        public IActionResult ProcesarCompra()
-        {
-            if (Carrito.Any())
-            {
-                // Simulación de procesamiento de compra
-                foreach (var articulo in Carrito)
-                {
-                    // Restar la cantidad vendida de la existencia
-                    var articuloEnDB = _context.Articulos.FirstOrDefault(a => a.IdArticulo == articulo.IdArticulo);
-                    if (articuloEnDB != null && articuloEnDB.Existencia >= 1)
-                    {
-                        articuloEnDB.Existencia -= 1;  // Aquí asumo que cada vez que se añade un artículo al carrito, se compra una unidad
-                    }
-                }
-
-                Carrito.Clear();  // Limpiar el carrito después de la compra
-                TempData["Message"] = "Compra realizada con éxito.";
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "El carrito está vacío.";
-            }
-
-            // Redirigir a la página principal
-            return RedirectToAction("Index");
-        }
-
-
-        [HttpPost]
-        public IActionResult AñadirAlCarrito(int idArticulo, int unidades)
-        {
-            try
-            {
-                // Lógica para añadir al carrito (puedes almacenarlo en sesión o base de datos)
-                var carrito = HttpContext.Session.GetObjectFromJson<List<CarritoItem>>("Carrito") ?? new List<CarritoItem>();
-
-                var item = carrito.FirstOrDefault(i => i.IdArticulo == idArticulo);
-                if (item != null)
-                {
-                    item.Unidades += unidades;
-                }
-                else
-                {
-                    carrito.Add(new CarritoItem { IdArticulo = idArticulo, Unidades = unidades });
-                }
-
-                HttpContext.Session.SetObjectAsJson("Carrito", carrito);
-
-                return Ok();
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
-        }
-
-        // Clase auxiliar para manejar los items del carrito
-        public class CarritoItem
-        {
-            public int IdArticulo { get; set; }
-            public int Unidades { get; set; }
-        }
-
+       
 
     }
 }

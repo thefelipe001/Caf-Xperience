@@ -1589,6 +1589,22 @@
       "PackagePath": "staticwebassets\\JavaScripts\\Empleados\\Home.js"
     },
     {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Facturas\\Home.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Facturas\\Home.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Facturas\\Home.js.map",
+      "PackagePath": "staticwebassets\\JavaScripts\\Facturas\\Home.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Facturas\\Home.min.js",
+      "PackagePath": "staticwebassets\\JavaScripts\\Facturas\\Home.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Facturas\\Home.min.js.map",
+      "PackagePath": "staticwebassets\\JavaScripts\\Facturas\\Home.min.js.map"
+    },
+    {
       "Id": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js",
       "PackagePath": "staticwebassets\\JavaScripts\\Marca\\Home.js"
     },
