@@ -8,13 +8,11 @@ namespace CafeXperienceApp.Controllers
     public class ArticuloComprasController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly CarritoService _carritoService;
 
 
-        public ArticuloComprasController(ApplicationDbContext context, CarritoService carritoService)
+        public ArticuloComprasController(ApplicationDbContext context)
         {
            _context = context;
-           _carritoService = carritoService;
 
         }
 
