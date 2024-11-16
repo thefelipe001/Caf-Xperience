@@ -13,5 +13,8 @@ namespace CafeXperienceApp.Models
         public DateTime FechaIngreso { get; set; }  // date, not null
         public string Estado { get; set; }  // 'A' o 'I', not null
         public int IdUsuario { get; set; }  // FK hacia la tabla Usuarios
+
+        //public virtual FacturacionArticulo IdArticuloNavigation { get; set; } = null!;
+        public virtual ICollection<FacturacionArticulo> FacturacionArticulos { get; set; } = new List<FacturacionArticulo>();
     }
 }
