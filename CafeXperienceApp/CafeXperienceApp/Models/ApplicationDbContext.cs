@@ -25,6 +25,8 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<Proveedore> Proveedores { get; set; }
 
+    public virtual DbSet<FacturacionArticulo> FacturacionArticulos { get; set; }
+
     public virtual DbSet<TipoUsuario> TipoUsuarios { get; set; }
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
@@ -224,6 +226,43 @@ public partial class ApplicationDbContext : DbContext
                 .HasForeignKey(d => d.TipoUsuarioId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Usuarios__TipoUs__60A75C0F");
+        });
+
+        modelBuilder.Entity<FacturacionArticulo>(entity =>
+        {
+            entity.HasKey(e => e.NoFactura).HasName("PK__Facturac__365D8BFBFAB2ADDD");
+
+            entity.Property(e => e.Comentario)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Estado)
+                .HasMaxLength(1)
+                .IsFixedLength();
+            entity.Property(e => e.FechaVenta)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.IdArticulo).HasColumnName("idArticulo");
+            entity.Property(e => e.IdCampus)
+                .HasDefaultValue(1)
+                .HasColumnName("idCampus");
+            entity.Property(e => e.IdEmpleado).HasColumnName("idEmpleado");
+            entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
+            entity.Property(e => e.MontoArticulo).HasColumnType("decimal(18, 2)");
+
+            entity.HasOne(d => d.IdArticuloNavigation).WithMany(p => p.FacturacionArticulos)
+                .HasForeignKey(d => d.IdArticulo)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Facturaci__idArt__02FC7413");
+
+            entity.HasOne(d => d.IdEmpleadoNavigation).WithMany(p => p.FacturacionArticulos)
+                .HasForeignKey(d => d.IdEmpleado)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Facturaci__idEmp__02084FDA");
+
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.FacturacionArticulos)
+                .HasForeignKey(d => d.IdUsuario)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Facturaci__idUsu__03F0984C");
         });
 
         OnModelCreatingPartial(modelBuilder);

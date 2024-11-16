@@ -17,5 +17,8 @@ namespace CafeXperienceApp.Data
         public DbSet<Articulo> Articulos { get; set; } 
 
         public DbSet<Proveedore> Proveedores { get; set; }
+
+        public DbSet<FacturacionArticulo> FacturacionArticulos { get; set; }
+
     }
 }

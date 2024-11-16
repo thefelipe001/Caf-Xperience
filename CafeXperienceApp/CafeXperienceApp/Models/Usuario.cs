@@ -26,4 +26,6 @@ public partial class Usuario
     public virtual ICollection<Cafeteria> Cafeteria { get; set; } = new List<Cafeteria>();
 
     public virtual TipoUsuario TipoUsuario { get; set; } = null!;
+
+    public virtual ICollection<FacturacionArticulo> FacturacionArticulos { get; set; } = new List<FacturacionArticulo>();
 }

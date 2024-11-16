@@ -24,4 +24,5 @@ public partial class Articulo
     public virtual Marca IdMarcaNavigation { get; set; } = null!;
 
     public virtual Proveedore IdProveedorNavigation { get; set; } = null!;
+    public virtual ICollection<FacturacionArticulo> FacturacionArticulos { get; set; } = new List<FacturacionArticulo>();
 }
