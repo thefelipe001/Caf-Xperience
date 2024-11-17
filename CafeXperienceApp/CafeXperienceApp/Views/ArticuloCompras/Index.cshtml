@@ -36,18 +36,50 @@
                             </div>
                         </div>
 
-                        <!-- Pie de la tarjeta -->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center">
-                                <!-- Botón para añadir el artículo al carrito -->
-                                <a href="@Url.Action("AñadirAlCarrito", "ArticuloCompras", new { id = articulo.IdArticulo })" class="btn btn-primary w-100">
+                                <button class="btn btn-primary w-100 add-to-cart" data-id="@articulo.IdArticulo">
                                     <i class="fas fa-shopping-cart"></i> Comprar
-                                </a>
+                                </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             }
         </div>
     </div>
 </section>
+
+
+<script>
+    $(document).ready(function() {
+        $('.add-to-cart').click(function() {
+            const articuloId = $(this).data('id'); // Obtén el ID del artículo del atributo data-id
+
+            $.ajax({
+                url: '/ArticuloCompras/AñadirAlCarrito', // Ruta a la acción del controlador
+                type: 'POST', // Método HTTP
+                data: { id: articuloId }, // Datos enviados al servidor
+                success: function(response) {
+                    // Actualiza la interfaz con el resultado
+                    Swal.fire({
+                        title: '¡Éxito!',
+                        text: 'El artículo se compro.',
+                        icon: 'success',
+                        confirmButtonText: 'Aceptar'
+                    });
+                },
+                error: function(xhr, status, error) {
+                    // Manejo de errores
+                    Swal.fire({
+                        title: 'Error',
+                        text: 'No se pudo añadir el artículo al carrito. Inténtalo de nuevo.',
+                        icon: 'error',
+                        confirmButtonText: 'Aceptar'
+                    });
+                }
+            });
+        });
+    });
+</script>

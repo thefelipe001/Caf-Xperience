@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\articulocompras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\views\\articulocompras\\a\u00F1adiralcarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\articulocompras\\a\u00F1adiralcarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\articulocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\controllers\\articulocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\models\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\models\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\facturacionarticulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\controllers\\facturacionarticulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\views\\articulocompras\\a\u00F1adiralcarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\views\\articulocompras\\a\u00F1adiralcarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\controllers\\reporterentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\models\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|solutionrelative:cafexperienceapp\\models\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BDD6913-16E0-4110-BDF4-25B3267CED02}|CafeXperienceApp\\CafeXperienceApp.csproj|c:\\users\\dell\\source\\repos\\caf-xperience\\cafexperienceapp\\cafexperienceapp\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -306,24 +310,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArticuloController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloController.cs",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\ArticuloController.cs",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloController.cs",
-              "RelativeToolTip": "CafeXperienceApp\\Controllers\\ArticuloController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T20:36:45.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\appsettings.json",
               "RelativeDocumentMoniker": "CafeXperienceApp\\appsettings.json",
@@ -335,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Articulo\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Articulo\\Index.cshtml",
@@ -347,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ReporteRentaController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ReporteRentaController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\ReporteRentaController.cs",
@@ -355,25 +346,24 @@
               "RelativeToolTip": "CafeXperienceApp\\Controllers\\ReporteRentaController.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAiwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:26:35.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T14:26:35.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ArticuloComprasController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloComprasController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\ArticuloComprasController.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloComprasController.cs",
               "RelativeToolTip": "CafeXperienceApp\\Controllers\\ArticuloComprasController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T13:20:29.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Marca.cs",
@@ -385,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Articulo.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Articulo.cs",
@@ -397,27 +387,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Proveedore.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Proveedore.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Proveedore.cs",
               "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Proveedore.cs",
               "RelativeToolTip": "CafeXperienceApp\\Models\\Proveedore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T15:06:37.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "A\u00F1adirAlCarrito.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
-              "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
-              "RelativeToolTip": "CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T09:03:37.57Z",
+              "WhenOpened": "2024-11-09T15:06:37.056Z",
               "EditorCaption": ""
             },
             {
@@ -426,16 +404,53 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\ArticuloCompras\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\Index.cshtml",
-              "RelativeToolTip": "CafeXperienceApp\\Views\\ArticuloCompras\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\Index.cshtml*",
+              "RelativeToolTip": "CafeXperienceApp\\Views\\ArticuloCompras\\Index.cshtml*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAADsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-13T13:21:27.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "FacturacionArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\FacturacionArticuloController.cs",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\FacturacionArticuloController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\FacturacionArticuloController.cs",
+              "RelativeToolTip": "CafeXperienceApp\\Controllers\\FacturacionArticuloController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:55:43.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "CafeXperienceApp\\Controllers\\ArticuloController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:36:45.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "A\u00F1adirAlCarrito.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
+              "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
+              "RelativeToolTip": "CafeXperienceApp\\Views\\ArticuloCompras\\A\u00F1adirAlCarrito.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T09:03:37.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Articulos\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Articulos\\Home.js",
@@ -443,12 +458,11 @@
               "RelativeToolTip": "CafeXperienceApp\\wwwroot\\JavaScripts\\Articulos\\Home.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-26T20:48:46.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T20:48:46.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\ApplicationDbContext.cs",
@@ -460,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Data\\ApplicationDbContext.cs",
@@ -472,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Usuarios\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Usuarios\\Home.js",
@@ -484,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\TipoUsuario.cs",
@@ -496,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_LayoutPrincipal.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Shared\\_LayoutPrincipal.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Shared\\_LayoutPrincipal.cshtml",
@@ -508,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\TipoUsuarios\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\TipoUsuarios\\Home.js",
@@ -520,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CarritoItem.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\CarritoItem.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\CarritoItem.cs",
@@ -532,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CarritoService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Repositorio\\CarritoService.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Repositorio\\CarritoService.cs",
@@ -544,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\TipoUsuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\TipoUsuarios\\Index.cshtml",
@@ -556,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TipoUsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\TipoUsuariosController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\TipoUsuariosController.cs",
@@ -568,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Campus\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Campus\\Home.js",
@@ -580,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\ReporteRenta\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\ReporteRenta\\Home.js",
@@ -592,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Usuarios\\Index.cshtml",
@@ -604,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Repositorio\\BaseRepository.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Repositorio\\BaseRepository.cs",
@@ -616,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Cafeteria\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Cafeteria\\Index.cshtml",
@@ -628,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\HomeController.cs",
@@ -640,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Campus.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Campus.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Campus.cs",
@@ -652,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\ReporteRenta\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\ReporteRenta\\Index.cshtml",
@@ -664,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CafeteriaController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\CafeteriaController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\CafeteriaController.cs",
@@ -676,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MarcaController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\MarcaController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\MarcaController.cs",
@@ -688,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Shared\\_Layout.cshtml",
@@ -700,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Cafeteria\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Cafeteria\\Home.js",
@@ -712,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "FacturacionDetalleReporte.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\FacturacionDetalleReporte.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\FacturacionDetalleReporte.cs",
@@ -724,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\UsuariosController.cs",
@@ -736,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "FacturacionDetalle.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\FacturacionDetalle.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\FacturacionDetalle.cs",
@@ -748,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Marca\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Marca\\Index.cshtml",
@@ -760,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Empleados\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Empleados\\Home.js",
@@ -772,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Empleados.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Empleados.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Empleados.cs",
@@ -784,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "EmpleadosController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\EmpleadosController.cs",
@@ -796,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Empleados\\Index.cshtml",
@@ -808,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\JavaScripts\\Marca\\Home.js",
@@ -820,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "CampusController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\CampusController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\CampusController.cs",
@@ -832,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\js\\site.js",
@@ -844,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\SessionExtensions.cs",
@@ -856,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Home\\Index.cshtml",
@@ -868,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Controllers\\DashboardController.cs",
@@ -880,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Properties\\launchSettings.json",
@@ -892,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Program.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Program.cs",
@@ -904,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\_ViewImports.cshtml",
@@ -916,7 +930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Dashboard\\Index.cshtml",
@@ -928,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "jquery.validate-vsdoc.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
@@ -940,7 +954,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\DashboardViewModel.cs",
@@ -952,7 +966,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "bootstrap.bundle.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
@@ -964,7 +978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "bootstrap.bundle.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Scripts\\bootstrap.bundle.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\Scripts\\bootstrap.bundle.js",
@@ -976,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "jquery.validate.unobtrusive.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
@@ -988,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\js\\script.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\Design\\js\\script.js",
@@ -1000,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "bootstrap.esm.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
@@ -1012,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\ErrorViewModel.cs",
@@ -1024,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "main.js",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Design\\Usuarios\\js\\main.js",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\Design\\Usuarios\\js\\main.js",
@@ -1036,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\Login.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Usuarios\\Login.cshtml",
@@ -1048,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Usuario.cs",
@@ -1060,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "CambioClave.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\CambioClave.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Usuarios\\CambioClave.cshtml",
@@ -1072,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "RegistrarCliente.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Usuarios\\RegistrarCliente.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Usuarios\\RegistrarCliente.cshtml",
@@ -1084,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\LoginDto.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\LoginDto.cs",
@@ -1096,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "CambioContrasenaDto.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\CambioContrasenaDto.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\CambioContrasenaDto.cs",
@@ -1108,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "CodigoVerificacion.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\CodigoVerificacion.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\CodigoVerificacion.cs",
@@ -1120,7 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Interfaces\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Interfaces\\IBaseRepository.cs",
@@ -1132,7 +1146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Interfaces\\Result.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Interfaces\\Result.cs",
@@ -1144,7 +1158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "Cafeteria.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\Cafeteria.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\Cafeteria.cs",
@@ -1156,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "CafeteriaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Models\\CafeteriaViewModel.cs",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Models\\CafeteriaViewModel.cs",
@@ -1168,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\Views\\Campus\\Index.cshtml",
               "RelativeDocumentMoniker": "CafeXperienceApp\\Views\\Campus\\Index.cshtml",
@@ -1180,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\css\\site.css",
@@ -1192,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Site.css",
               "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Caf-Xperience\\CafeXperienceApp\\CafeXperienceApp\\wwwroot\\Content\\Site.css",
               "RelativeDocumentMoniker": "CafeXperienceApp\\wwwroot\\Content\\Site.css",

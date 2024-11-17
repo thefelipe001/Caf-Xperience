@@ -40,7 +40,27 @@ namespace CafeXperienceApp.Controllers
             return View(articulosDisponibles);  // Pasar la lista de artículos a la vista
         }
 
-       
+        [HttpPost]
+        public JsonResult AñadirAlCarrito(int id)
+        {
+            try
+            {
+                // Lógica para añadir el artículo al carrito
+                // Por ejemplo: guardar en la sesión o base de datos
+
+                return Json(new { success = true, message = "Artículo añadido al carrito" });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error al añadir el artículo: " + ex.Message });
+            }
+        }
+
+
+
+
+
+
 
     }
 }
